@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Temirlan Kakishev** — UI/UX Designer & Product Developer based in Prague.
 
-**Live site:** [zirvey.github.io/Temirlan-Kakishev-CV](https://zirvey.github.io/Temirlan-Kakishev-CV/)
+**Live site:** [zirvey.github.io/My-CV](https://zirvey.github.io/My-CV/)
 
 ## About
 
@@ -13,8 +13,8 @@ I'm a hybrid builder: UI/UX design, full-stack products, and automation. This si
 ## What's on the site
 
 - Hero with profile and project stats
-- **8 projects** with case studies (Before/After for redesigns, full product stories for shipped apps)
-- Filters: UI Concepts · Products · Automation
+- **7 projects** with case studies (Before/After for redesigns, full product stories for shipped apps)
+- Filters: UI Concepts · Products
 - About, skills, experience, contact
 
 ## Featured work
@@ -26,38 +26,8 @@ I'm a hybrid builder: UI/UX design, full-stack products, and automation. This si
 | Smoky Place | UI/UX redesign concept | [Live](https://zirvey.github.io/smoky-place-landing-page/) |
 | Booking Telegram App | Full-stack product | [Live](https://zirvey.github.io/Booking-Telegram-App-Prewiev/) |
 | EV Scalp Pro | Trading bot + SaaS dashboard | [Live](https://zirvey.github.io/Scalping-Bot-SaaS/demo/) |
-| BioMarket | Subscription e-commerce (Prague) | [Live](https://biomark-web.vercel.app/) |
+| BioMarket | Subscription e-commerce (Prague) | Private · case study on site |
 | Dota Companion | Flutter mobile app | Private · case study on site |
-| Website Lead Parser | Python automation | Case study on site |
-
-## Tech stack
-
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS v4](https://tailwindcss.com/)
-- Vanilla JavaScript (ES modules)
-- GitHub Actions → GitHub Pages
-
-## Local development
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173)
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
-
-## Deploy (GitHub Pages)
-
-1. **Settings → Pages → Source:** GitHub Actions
-2. Push to `main` — workflow deploys automatically
-3. Site URL: `https://zirvey.github.io/Temirlan-Kakishev-CV/`
 
 ## Contact
 

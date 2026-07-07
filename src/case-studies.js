@@ -166,11 +166,11 @@ export const caseStudies = {
   biomark: {
     title: "BioMarket",
     kind: "product",
-    type: "Full-Stack Product",
+    type: "Full-Stack Product · Private",
     tags: ["Next.js", "Subscription", "E-commerce"],
     private: true,
     official: null,
-    demo: "https://biomark-web.vercel.app/",
+    demo: null,
     github: null,
     afterImage: "projects/biomark-web.jpg",
     challenge:
@@ -183,37 +183,11 @@ export const caseStudies = {
       "End-to-end: frontend, backend logic, payments integration, deployment",
     ],
     results: [
-      "Live production site serving Prague districts",
+      "Production platform serving Prague districts",
       "Complete subscription e-commerce flow — not a redesign, built from zero",
-      "Private repository; public demo at biomark-web.vercel.app",
+      "Private repository — case study and walkthrough available on request",
     ],
     stack: "Next.js, TypeScript, Tailwind CSS, Vercel",
     role: "Product idea, UI/UX, frontend, backend, deployment",
-  },
-  parser: {
-    title: "Website Lead Parser",
-    kind: "tool",
-    type: "Automation Tool",
-    tags: ["Python", "Web Scraping", "Lead Scoring"],
-    private: true,
-    official: null,
-    demo: null,
-    github: null,
-    afterImage: null,
-    challenge:
-      "Freelance and outreach work needs a steady pipeline of potential clients — specifically businesses in the Czech market running websites with outdated design that could benefit from a modern rebuild.",
-    approach: [
-      "Built a Python parser to crawl and analyse .cz websites at scale",
-      "Designed scoring heuristics to flag outdated layouts, old tech stacks, and poor mobile UX",
-      "Automated scheduled runs with structured output for lead prioritisation",
-      "Connected results to a workflow for targeted outreach and redesign proposals",
-    ],
-    results: [
-      "Automated lead generation — replaces manual browsing of hundreds of sites",
-      "Directly fed into UI/UX redesign freelance pipeline",
-      "Demonstrates automation + business thinking beyond pure design work",
-    ],
-    stack: "Python, web scraping, scheduled jobs, REST APIs",
-    role: "Tool design, scripting, automation pipeline",
   },
 };
