@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Temirlan Kakishev — UI/UX Designer, Product Developer & Automation Engineer based in Prague."
+    />
+    <meta property="og:title" content="Temirlan Kakishev — UI/UX Designer" />
+    <meta property="og:description" content="UI/UX Designer & Front-end Developer. Premium dark aesthetics, hospitality redesigns, and shipped products." />
+    <meta property="og:type" content="website" />
+    <title>Temirlan Kakishev — UI/UX Designer &amp; Product Developer</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-bg"
+    >
+      Skip to content
+    </a>
+
+    <header
+      id="site-header"
+      class="site-header"
+    >
+      <nav class="flex items-center justify-between gap-4" aria-label="Main navigation">
+        <a href="#" class="font-heading text-sm font-semibold tracking-wide text-text">
+          TK<span class="text-accent">.</span>
+        </a>
+
+        <div class="hidden items-center gap-8 md:flex">
+          <a href="#work" class="nav-link">Work</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <a href="#contact" class="btn-primary hidden px-5 py-2.5 text-xs sm:inline-flex">
+          Get in touch
+        </a>
+
+        <button
+          id="menu-toggle"
+          type="button"
+          class="inline-flex cursor-pointer items-center justify-center rounded-lg border border-border p-2 text-muted transition-colors hover:text-text md:hidden"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open menu"
+        >
+          <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </nav>
+
+      <div id="mobile-menu" class="hidden border-t border-border/50 pt-4 md:hidden" aria-hidden="true">
+        <div class="flex flex-col gap-3 pb-1">
+          <a href="#work" class="nav-link py-1">Work</a>
+          <a href="#about" class="nav-link py-1">About</a>
+          <a href="#experience" class="nav-link py-1">Experience</a>
+          <a href="#contact" class="nav-link py-1">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="relative overflow-hidden px-4 pb-20 pt-32 sm:px-6 lg:pb-28 lg:pt-40">
+        <div class="pointer-events-none absolute inset-0" aria-hidden="true">
+          <div data-parallax="0.12" class="absolute -top-24 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-accent/5 blur-3xl"></div>
+          <div data-parallax="0.08" class="absolute right-0 top-1/3 h-64 w-64 rounded-full bg-cta/5 blur-3xl"></div>
+        </div>
+
+        <div class="relative mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[1fr_auto] lg:gap-16">
+          <div class="reveal">
+            <p class="section-label mb-4">Prague, Czech Republic</p>
+            <h1 class="font-heading text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
+              <span class="hero-line"><span class="hero-line-inner">UI/UX Designer</span></span>
+              <span class="hero-line"><span class="hero-line-inner text-muted">&amp; Product Developer</span></span>
+            </h1>
+            <p class="hero-line mt-6 max-w-2xl">
+              <span class="hero-line-inner block text-base leading-relaxed text-muted sm:text-lg">
+                I don't just design interfaces — I ship full products. From UI concepts and
+                Telegram apps to trading bots, parsers, and private web platforms — with
+                backend, frontend, and deployment handled end-to-end.
+              </span>
+            </p>
+
+            <div class="hero-line mt-8 flex flex-wrap gap-3">
+              <span class="hero-line-inner flex flex-wrap gap-3">
+                <a href="#work" class="btn-primary">View projects</a>
+                <a
+                  href="https://www.linkedin.com/in/temirlankakishev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-ghost"
+                >
+                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 114.126 0 2.062 2.062 0 01-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  LinkedIn
+                </a>
+                <a
+                  href="https://github.com/Zirvey"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-ghost"
+                >
+                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                  </svg>
+                  GitHub
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <div class="reveal profile-wrap">
+            <div class="profile-glow" aria-hidden="true"></div>
+            <div class="profile-ring">
+              <div class="profile-inner">
+                <img
+                  src="/profile.png"
+                  alt="Temirlan Kakishev — UI/UX Designer"
+                  class="profile-img"
+                  width="480"
+                  height="480"
+                />
+              </div>
+            </div>
+            <div class="profile-badge">
+              <p class="font-heading text-sm font-semibold text-text">Temirlan Kakishev</p>
+              <p class="text-xs text-muted">UI/UX · Full-stack · Automation</p>
+            </div>
+          </div>
+
+          <div class="reveal grid grid-cols-2 gap-4 sm:grid-cols-4 sm:gap-6 lg:col-span-2">
+            <div class="card-surface card-shine p-4 sm:p-5">
+              <p class="font-heading text-2xl font-semibold text-accent sm:text-3xl" data-count="8">0</p>
+              <p class="mt-1 text-xs text-muted sm:text-sm">Projects built</p>
+            </div>
+            <div class="card-surface card-shine p-4 sm:p-5">
+              <p class="font-heading text-2xl font-semibold text-accent sm:text-3xl" data-count="4" data-suffix="+">0</p>
+              <p class="mt-1 text-xs text-muted sm:text-sm">Years in IT</p>
+            </div>
+            <div class="card-surface card-shine p-4 sm:p-5">
+              <p class="font-heading text-2xl font-semibold text-accent sm:text-3xl" data-count="4">0</p>
+              <p class="mt-1 text-xs text-muted sm:text-sm">Full-stack products</p>
+            </div>
+            <div class="card-surface card-shine p-4 sm:p-5">
+              <p class="font-heading text-2xl font-semibold text-accent sm:text-3xl" data-count="6">0</p>
+              <p class="mt-1 text-xs text-muted sm:text-sm">Public demos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work -->
+      <section id="work" class="px-4 py-20 sm:px-6 lg:py-28">
+        <div class="mx-auto max-w-6xl">
+          <div class="reveal mb-12 max-w-2xl">
+            <p class="section-label mb-3">Selected work</p>
+            <h2 class="section-title">Design, build &amp; automate</h2>
+            <p class="mt-4 text-muted">
+              UI redesign concepts, full-stack products, private apps, and automation tools —
+              all built solo from idea to deployment.
+            </p>
+          </div>
+
+          <div class="reveal mb-8 flex flex-wrap gap-2">
+            <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="filter-btn" data-filter="concept" aria-pressed="false">UI Concepts</button>
+            <button type="button" class="filter-btn" data-filter="product" aria-pressed="false">Products</button>
+            <button type="button" class="filter-btn" data-filter="automation" aria-pressed="false">Automation</button>
+          </div>
+
+          <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
+            <!-- W Steak -->
+            <article class="project-card reveal group card-surface card-shine overflow-hidden lg:col-span-2" data-category="concept">
+              <div class="grid lg:grid-cols-2">
+                <div class="relative aspect-[16/10] overflow-hidden bg-surface-elevated lg:aspect-auto">
+                  <img
+                    src="https://raw.githubusercontent.com/Zirvey/w-steak-restaurant-landing-page/main/docs/screenshots/hero-desktop.jpg"
+                    alt="W Steak Restaurant concept landing page hero section"
+                    class="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                    loading="lazy"
+                  />
+                  <div class="absolute inset-0 bg-gradient-to-t from-bg/60 to-transparent lg:bg-gradient-to-r"></div>
+                </div>
+                <div class="flex flex-col justify-center p-6 sm:p-8 lg:p-10">
+                  <div class="mb-3 flex flex-wrap gap-2">
+                    <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">UI/UX Concept</span>
+                    <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">HTML</span>
+                    <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Dark &amp; Gold</span>
+                  </div>
+                  <h3 class="font-heading text-2xl font-semibold">W Steak Restaurant</h3>
+                  <p class="mt-3 text-sm leading-relaxed text-muted">
+                    Unofficial redesign concept for W Steak Restaurant Prague — premium dark
+                    &amp; gold landing page with bento grid layout, menu highlights, and mobile-first
+                    responsive design.
+                  </p>
+                  <div class="mt-6 flex flex-wrap gap-3">
+                    <button type="button" data-case-study="w-steak" class="btn-case">Case study</button>
+                    <a
+                      href="https://zirvey.github.io/w-steak-restaurant-landing-page/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn-primary text-xs"
+                    >
+                      Live demo
+                      <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                      </svg>
+                    </a>
+                    <a
+                      href="https://github.com/Zirvey/w-steak-restaurant-landing-page"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn-ghost text-xs"
+                    >
+                      Source code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Smokehouse -->
+            <article class="project-card reveal group card-surface card-shine overflow-hidden" data-category="concept">
+              <div class="relative aspect-[16/10] overflow-hidden bg-surface-elevated">
+                <img
+                  src="https://raw.githubusercontent.com/Zirvey/smokehouse-desing/main/docs/hero.png"
+                  alt="Smokehouse Prague concept landing page"
+                  class="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-6">
+                <div class="mb-3 flex flex-wrap gap-2">
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">UI/UX Concept</span>
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Next.js</span>
+                </div>
+                <h3 class="font-heading text-xl font-semibold">Smokehouse Prague</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted">
+                  Premium shisha lounge redesign with Framer Motion animations, Tailwind CSS,
+                  and Czech-localized content across three locations.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-3">
+                  <button type="button" data-case-study="smokehouse" class="btn-case">Case study</button>
+                  <a
+                    href="https://zirvey.github.io/smokehouse-desing/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-primary px-4 py-2 text-xs"
+                  >
+                    Live demo
+                  </a>
+                  <a
+                    href="https://github.com/Zirvey/smokehouse-desing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-ghost px-4 py-2 text-xs"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Smoky Place -->
+            <article class="project-card reveal group card-surface card-shine overflow-hidden" data-category="concept">
+              <div class="relative aspect-[16/10] overflow-hidden bg-surface-elevated">
+                <img
+                  src="https://raw.githubusercontent.com/Zirvey/smoky-place-landing-page/main/docs/screenshots/hero.png"
+                  alt="Smoky Place hookah lounge concept landing page"
+                  class="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-6">
+                <div class="mb-3 flex flex-wrap gap-2">
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">UI/UX Concept</span>
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">HTML</span>
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Dark &amp; Red</span>
+                </div>
+                <h3 class="font-heading text-xl font-semibold">Smoky Place</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted">
+                  Unofficial redesign for a Prague hookah lounge — VIP lounge section, events
+                  calendar, reviews carousel, and reservation modal with Czech content.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-3">
+                  <button type="button" data-case-study="smoky-place" class="btn-case">Case study</button>
+                  <a
+                    href="https://zirvey.github.io/smoky-place-landing-page/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-primary px-4 py-2 text-xs"
+                  >
+                    Live demo
+                  </a>
+                  <a
+                    href="https://github.com/Zirvey/smoky-place-landing-page"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-ghost px-4 py-2 text-xs"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Booking App -->
+            <article class="project-card reveal group card-surface card-shine overflow-hidden" data-category="product">
+              <div class="relative aspect-[16/10] overflow-hidden bg-surface-elevated">
+                <img
+                  src="https://raw.githubusercontent.com/Zirvey/Booking-Telegram-App-Prewiev/main/docs/screenshots/general/hero-banner.png"
+                  alt="Telegram Booking Mini App interface preview"
+                  class="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-6">
+                <div class="mb-3 flex flex-wrap gap-2">
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Full-Stack Product</span>
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Telegram Mini App</span>
+                </div>
+                <h3 class="font-heading text-xl font-semibold">Booking Telegram App</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted">
+                  End-to-end booking product I built from scratch — idea, backend, Telegram
+                  Mini App, admin panel, Google Calendar sync, and white-label UI per niche.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-3">
+                  <button type="button" data-case-study="booking" class="btn-case">Case study</button>
+                  <a
+                    href="https://zirvey.github.io/Booking-Telegram-App-Prewiev/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-primary px-4 py-2 text-xs"
+                  >
+                    Live demo
+                  </a>
+                  <a
+                    href="https://github.com/Zirvey/Booking-Telegram-App-Prewiev"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-ghost px-4 py-2 text-xs"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- EV Scalp Pro -->
+            <article class="project-card reveal group card-surface card-shine overflow-hidden" data-category="product">
+              <div class="relative aspect-[16/10] overflow-hidden bg-surface-elevated">
+                <img
+                  src="https://raw.githubusercontent.com/Zirvey/Scalping-Bot-SaaS/main/assets/screenshots/01-hero-dashboard.png"
+                  alt="EV Scalp Pro SaaS trading dashboard"
+                  class="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-6">
+                <div class="mb-3 flex flex-wrap gap-2">
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Full-Stack Product</span>
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Trading Bot</span>
+                </div>
+                <h3 class="font-heading text-xl font-semibold">EV Scalp Pro</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted">
+                  Complete Polymarket scalping bot I built solo — trading logic, backtest engine,
+                  SaaS landing, and interactive dashboard with verified performance data.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-3">
+                  <button type="button" data-case-study="ev-scalp" class="btn-case">Case study</button>
+                  <a
+                    href="https://zirvey.github.io/Scalping-Bot-SaaS/demo/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-primary px-4 py-2 text-xs"
+                  >
+                    Live demo
+                  </a>
+                  <a
+                    href="https://github.com/Zirvey/Scalping-Bot-SaaS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-ghost px-4 py-2 text-xs"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Dota Companion -->
+            <article class="project-card reveal group card-surface card-shine overflow-hidden" data-category="product">
+              <div class="relative aspect-[16/10] overflow-hidden bg-surface-elevated">
+                <img
+                  src="projects/dota-companion.jpg"
+                  alt="Dota Companion app — Hero Meta screen"
+                  class="mx-auto h-full w-auto object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-6">
+                <div class="mb-3 flex flex-wrap gap-2">
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Flutter · Mobile</span>
+                  <span class="rounded-full border border-accent/30 bg-accent/5 px-3 py-1 text-xs text-accent">Private</span>
+                </div>
+                <h3 class="font-heading text-xl font-semibold">Dota Companion</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted">
+                  Flutter Dota 2 app — hero meta win rates, draft assistant with counter
+                  picks, and Steam player profiles. Built with OpenDota API.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-3">
+                  <button type="button" data-case-study="dota" class="btn-case">Case study</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- BioMarket -->
+            <article class="project-card reveal group card-surface card-shine overflow-hidden" data-category="product">
+              <div class="relative aspect-[16/10] overflow-hidden bg-surface-elevated">
+                <img
+                  src="projects/biomark-web.jpg"
+                  alt="BioMarket — vegetable subscription club landing page"
+                  class="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-6">
+                <div class="mb-3 flex flex-wrap gap-2">
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Full-Stack Product</span>
+                  <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">E-commerce</span>
+                </div>
+                <h3 class="font-heading text-xl font-semibold">BioMarket</h3>
+                <p class="mt-2 text-sm leading-relaxed text-muted">
+                  Prague vegetable subscription club — farmer-direct BIO produce, membership
+                  tiers, product catalog, and weekly delivery. Live on Vercel.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-3">
+                  <button type="button" data-case-study="biomark" class="btn-case">Case study</button>
+                  <a
+                    href="https://biomark-web.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-primary px-4 py-2 text-xs"
+                  >
+                    Live demo
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Website Parser -->
+            <article class="project-card reveal group card-surface card-shine overflow-hidden lg:col-span-2" data-category="automation">
+              <div class="grid lg:grid-cols-2">
+                <div class="relative flex aspect-[16/10] items-center justify-center overflow-hidden bg-surface-elevated lg:aspect-auto">
+                  <div class="text-center p-8">
+                    <svg class="mx-auto mb-4 h-12 w-12 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+                    </svg>
+                    <p class="font-heading text-lg font-semibold text-text">Python Automation</p>
+                    <p class="mt-1 text-xs text-muted">Web scraping · Lead scoring · .cz market</p>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-center p-6 sm:p-8 lg:p-10">
+                  <div class="mb-3 flex flex-wrap gap-2">
+                    <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Automation</span>
+                    <span class="rounded-full border border-border px-3 py-1 text-xs text-muted">Python</span>
+                  </div>
+                  <h3 class="font-heading text-2xl font-semibold">Website Lead Parser</h3>
+                  <p class="mt-3 text-sm leading-relaxed text-muted">
+                    Python tool that crawls outdated .cz websites, scores them as redesign leads,
+                    and feeds directly into my freelance UI/UX outreach pipeline.
+                  </p>
+                  <div class="mt-6 flex flex-wrap gap-3">
+                    <button type="button" data-case-study="parser" class="btn-case">Case study</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="border-t border-border/40 px-4 py-20 sm:px-6 lg:py-28">
+        <div class="mx-auto max-w-6xl">
+          <div class="grid gap-12 lg:grid-cols-[auto_1fr] lg:gap-16">
+            <div class="reveal mx-auto lg:mx-0">
+              <div class="profile-wrap max-w-[220px]">
+                <div class="profile-glow" aria-hidden="true"></div>
+                <div class="profile-ring">
+                  <div class="profile-inner">
+                    <img
+                      src="/profile.png"
+                      alt="Temirlan Kakishev portrait"
+                      class="profile-img aspect-square object-cover object-top"
+                      width="220"
+                      height="220"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="reveal">
+              <p class="section-label mb-3">About me</p>
+              <h2 class="section-title">More than a designer</h2>
+              <div class="mt-6 space-y-4 text-sm leading-relaxed text-muted sm:text-base">
+                <p>
+                  I'm <strong class="font-medium text-text">Temirlan Kakishev</strong> — based in
+                  Prague. By day I work in IT infrastructure (iGaming); by passion I build
+                  products. System administration taught me how systems actually run — so I don't
+                  stop at Figma mockups.
+                </p>
+                <p>
+                  I design <strong class="font-medium text-text">and ship</strong>: UI/UX concepts,
+                  Telegram Mini Apps, trading bots, web platforms, and Python automation tools.
+                  Backend, frontend, deployment — end-to-end, solo.
+                </p>
+                <p>
+                  Open to roles where design meets engineering: UI/UX, product design,
+                  front-end, or hybrid builder positions. Remote-friendly.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal mt-12 lg:mt-16">
+              <p class="section-label mb-3">Skills</p>
+              <h3 class="font-heading text-xl font-semibold">Tools &amp; technologies</h3>
+
+              <div class="mt-6 space-y-6">
+                <div>
+                  <p class="mb-3 text-xs font-medium uppercase tracking-wider text-muted">Design &amp; UI/UX</p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">UI/UX Design</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Responsive Layout</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Design Systems</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Prototyping</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Framer Motion</span>
+                  </div>
+                </div>
+
+                <div>
+                  <p class="mb-3 text-xs font-medium uppercase tracking-wider text-muted">Development</p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Next.js</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">TypeScript</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Tailwind CSS</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Python</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">PostgreSQL</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Docker</span>
+                  </div>
+                </div>
+
+                <div>
+                  <p class="mb-3 text-xs font-medium uppercase tracking-wider text-muted">Automation &amp; Infrastructure</p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Web Scraping</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">REST APIs</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">CI/CD</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Linux / macOS / Windows</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Vercel / Railway</span>
+                  </div>
+                </div>
+
+                <div>
+                  <p class="mb-3 text-xs font-medium uppercase tracking-wider text-muted">Languages</p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Russian — Native</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">Czech — B2</span>
+                    <span class="rounded-lg border border-border/60 bg-surface px-3 py-1.5 text-xs text-text">English — B1</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="px-4 py-20 sm:px-6 lg:py-28">
+        <div class="mx-auto max-w-6xl">
+          <div class="reveal mb-12 max-w-2xl">
+            <p class="section-label mb-3">Experience</p>
+            <h2 class="section-title">Professional background</h2>
+          </div>
+
+          <div class="reveal space-y-4">
+            <article class="card-surface p-6 sm:p-8">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold">System Administrator</h3>
+                  <p class="text-sm text-accent">iGaming · Prague</p>
+                </div>
+                <p class="text-sm text-muted">2026 — Present</p>
+              </div>
+              <p class="mt-4 text-sm leading-relaxed text-muted">
+                IT infrastructure, user support, and internal tooling — alongside freelance
+                UI/UX and product work.
+              </p>
+            </article>
+
+            <article class="card-surface p-6 sm:p-8">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold">Freelance — Design &amp; Development</h3>
+                  <p class="text-sm text-accent">Remote</p>
+                </div>
+                <p class="text-sm text-muted">2024 — 2026</p>
+              </div>
+              <p class="mt-4 text-sm leading-relaxed text-muted">
+                UI/UX landing page redesigns, Telegram booking platform, subscription
+                marketplace, and automation tools for small businesses.
+              </p>
+            </article>
+
+            <article class="card-surface p-6 sm:p-8">
+              <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <h3 class="font-heading text-lg font-semibold">System Administrator</h3>
+                  <p class="text-sm text-accent">Trading company · Prague</p>
+                </div>
+                <p class="text-sm text-muted">2022 — 2024</p>
+              </div>
+              <p class="mt-4 text-sm leading-relaxed text-muted">
+                Workstation management, network administration, and day-to-day IT support
+                in a corporate environment.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="border-t border-border/40 px-4 py-20 sm:px-6 lg:py-28">
+        <div class="mx-auto max-w-6xl">
+          <div class="reveal card-surface overflow-hidden">
+            <div class="grid lg:grid-cols-2">
+              <div class="p-8 sm:p-10 lg:p-12">
+                <p class="section-label mb-3">Contact</p>
+                <h2 class="section-title">Let's work together</h2>
+                <p class="mt-4 text-sm leading-relaxed text-muted sm:text-base">
+                  Open to UI/UX design, product development, front-end, and hybrid builder roles.
+                  Based in Prague, available for remote work.
+                </p>
+
+                <div class="mt-8 space-y-4">
+                  <a
+                    href="mailto:Temirlankakishev@gmail.com"
+                    class="group flex cursor-pointer items-center gap-3 text-sm text-muted transition-colors duration-200 hover:text-text"
+                  >
+                    <span class="flex h-10 w-10 items-center justify-center rounded-xl border border-border bg-surface-elevated transition-colors group-hover:border-accent/40">
+                      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                      </svg>
+                    </span>
+                    Temirlankakishev@gmail.com
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/temirlankakishev/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="group flex cursor-pointer items-center gap-3 text-sm text-muted transition-colors duration-200 hover:text-text"
+                  >
+                    <span class="flex h-10 w-10 items-center justify-center rounded-xl border border-border bg-surface-elevated transition-colors group-hover:border-accent/40">
+                      <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 114.126 0 2.062 2.062 0 01-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                      </svg>
+                    </span>
+                    linkedin.com/in/temirlankakishev
+                  </a>
+                </div>
+              </div>
+
+              <div class="flex flex-col justify-center gap-3 border-t border-border/40 bg-surface-elevated/30 p-8 sm:p-10 lg:border-t-0 lg:border-l lg:p-12">
+                <a
+                  href="https://www.linkedin.com/in/temirlankakishev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-ghost w-full justify-center"
+                >
+                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 114.126 0 2.062 2.062 0 01-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  LinkedIn
+                </a>
+                <a
+                  href="https://github.com/Zirvey"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-ghost w-full justify-center"
+                >
+                  <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                  </svg>
+                  GitHub — Zirvey
+                </a>
+                <a
+                  href="mailto:Temirlankakishev@gmail.com"
+                  class="btn-primary w-full justify-center"
+                >
+                  Send an email
+                  <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-border/40 px-4 py-8 sm:px-6">
+      <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 sm:flex-row">
+        <p class="text-xs text-muted">
+          &copy; 2026 Temirlan Kakishev. All rights reserved.
+        </p>
+        <p class="text-xs text-muted">
+          Built with Vite &amp; Tailwind CSS
+        </p>
+      </div>
+    </footer>
+
+    <div id="case-modal"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
