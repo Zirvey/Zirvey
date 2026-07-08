@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Temirlan Kakishev** — UI/UX Designer & Product Developer based in Prague.
 
-**Live site:** [zirvey.github.io/My-CV](https://zirvey.github.io/My-CV/)
+**Live site:** [zirvey.github.io/Zirvey](https://zirvey.github.io/Zirvey/)
 
 ## About
 
