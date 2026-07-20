@@ -141,10 +141,10 @@ export const caseStudies = {
     type: "Full-Stack Product · SaaS For Sale",
     tags: ["Trading Bot", "SaaS", "Polymarket"],
     official: null,
-    demo: "https://zirvey.github.io/Scalping-Bot-SaaS/demo/",
+    demo: "https://zirvey.github.io/Scalping-Bot-SaaS/",
     github: "https://github.com/Zirvey/Scalping-Bot-SaaS",
     afterImage:
-      "https://raw.githubusercontent.com/Zirvey/Scalping-Bot-SaaS/main/assets/screenshots/02-dashboard.png",
+      "https://raw.githubusercontent.com/Zirvey/Scalping-Bot-SaaS/main/assets/screenshots/01-helix-landing.png",
     challenge:
       "Package a Polymarket 5-minute scalping bot (BTC/ETH/SOL) as a turnkey SaaS product — with verified track record, sales deck, trader cabinet, subscription UX, and live-ready architecture for handoff.",
     approach: [
@@ -157,7 +157,7 @@ export const caseStudies = {
     results: [
       "Turnkey SaaS product: website + bot + dashboard + subscription UX",
       "Verified metrics: 74.6% win rate, +$533 PnL across 1,632 tracked trades",
-      "Live sales deck, product UI (/helix/), and bot demo (/demo/) on GitHub Pages",
+      "Live sales deck and product UI on GitHub Pages",
       "Ready-to-launch Polymarket scalping platform for resale or own launch",
     ],
     stack: "Python, JavaScript, HTML/CSS, Polymarket API",
@@ -226,7 +226,7 @@ export const caseStudies = {
     demo: "https://zirvey.github.io/DevOps-Learn/",
     github: "https://github.com/Zirvey/DevOps-Learn",
     afterImage:
-      "https://raw.githubusercontent.com/Zirvey/DevOps-Learn/main/src/assets/hero.png",
+      "https://raw.githubusercontent.com/Zirvey/DevOps-Learn/main/public/media/hero-showcase-poster.jpg",
     challenge:
       "Junior engineers and career switchers need structured DevOps learning — not scattered blog posts. A self-paced platform with theory, exercises, progress tracking, and hands-on practice in one place.",
     approach: [

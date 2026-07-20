@@ -26,7 +26,7 @@ I'm a hybrid builder: UI/UX design, full-stack products, and automation. This si
 | Smokehouse Prague | UI/UX redesign concept | [Live](https://zirvey.github.io/smokehouse-desing/) |
 | Smoky Place | UI/UX redesign concept | [Live](https://zirvey.github.io/smoky-place-landing-page/) |
 | Booking Telegram App | Full-stack product | [Live](https://zirvey.github.io/Booking-Telegram-App-Prewiev/) |
-| Helix Trade | Trading bot + SaaS platform | [Live](https://zirvey.github.io/Scalping-Bot-SaaS/demo/) |
+| Helix Trade | Trading bot + SaaS platform | [Live](https://zirvey.github.io/Scalping-Bot-SaaS/) |
 | DevOps Learn | DevOps learning platform | [Live](https://zirvey.github.io/DevOps-Learn/) |
 | BioMarket | Subscription e-commerce (Prague) | Private · case study on site |
 | Dota Companion | Flutter mobile app | Private · case study on site |
