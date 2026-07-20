@@ -225,8 +225,7 @@ export const caseStudies = {
     official: null,
     demo: "https://zirvey.github.io/DevOps-Learn/",
     github: "https://github.com/Zirvey/DevOps-Learn",
-    afterImage:
-      "https://raw.githubusercontent.com/Zirvey/DevOps-Learn/main/public/media/hero-showcase-poster.jpg",
+    afterImage: "projects/devops-learn.jpg",
     challenge:
       "Junior engineers and career switchers need structured DevOps learning — not scattered blog posts. A self-paced platform with theory, exercises, progress tracking, and hands-on practice in one place.",
     approach: [
