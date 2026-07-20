@@ -6,14 +6,14 @@ Personal portfolio website for **Temirlan Kakishev** — UI/UX Designer & Produc
 
 ## About
 
-I'm a hybrid builder: UI/UX design, full-stack products, and automation. This site showcases my work — from hospitality redesign concepts to Telegram apps, trading bots, and private platforms.
+I'm a hybrid builder: UI/UX design, full-stack products, and automation. This site showcases my work — from hospitality redesign concepts to Telegram apps, trading bots, learning platforms, and private web apps.
 
-**Focus areas:** premium dark UI, hospitality & service industries, mobile/web products, Python automation.
+**Focus areas:** premium dark UI, hospitality & service industries, mobile/web products, DevOps education.
 
 ## What's on the site
 
 - Hero with profile and project stats
-- **7 projects** with case studies (Before/After for redesigns, full product stories for shipped apps)
+- **9 projects** with case studies (Before/After for redesigns, full product stories for shipped apps)
 - Filters: UI Concepts · Products
 - About, skills, experience, contact
 
@@ -21,11 +21,13 @@ I'm a hybrid builder: UI/UX design, full-stack products, and automation. This si
 
 | Project | Type | Demo |
 |---------|------|------|
-| W Steak Restaurant | UI/UX redesign concept | [Live](https://zirvey.github.io/w-steak-restaurant-landing-page/) |
+| W Steak Restaurant · v1 | UI/UX redesign concept | [Live](https://zirvey.github.io/w-steak-restaurant-landing-page/) |
+| W Steak Restaurant · Editorial (v2) | UI/UX alternative concept | [Live](https://zirvey.github.io/w-steak-restaurant-landing-page-v2/) |
 | Smokehouse Prague | UI/UX redesign concept | [Live](https://zirvey.github.io/smokehouse-desing/) |
 | Smoky Place | UI/UX redesign concept | [Live](https://zirvey.github.io/smoky-place-landing-page/) |
 | Booking Telegram App | Full-stack product | [Live](https://zirvey.github.io/Booking-Telegram-App-Prewiev/) |
-| EV Scalp Pro | Trading bot + SaaS dashboard | [Live](https://zirvey.github.io/Scalping-Bot-SaaS/demo/) |
+| Helix Trade | Trading bot + SaaS platform | [Live](https://zirvey.github.io/Scalping-Bot-SaaS/demo/) |
+| DevOps Learn | DevOps learning platform | [Live](https://zirvey.github.io/DevOps-Learn/) |
 | BioMarket | Subscription e-commerce (Prague) | Private · case study on site |
 | Dota Companion | Flutter mobile app | Private · case study on site |
 
