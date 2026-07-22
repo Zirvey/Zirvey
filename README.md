@@ -28,7 +28,7 @@ I'm a hybrid builder: UI/UX design, full-stack products, and automation. This si
 | Booking Telegram App | Full-stack product | [Live](https://zirvey.github.io/Booking-Telegram-App-Prewiev/) |
 | Helix Trade | Trading bot + SaaS platform | [Live](https://zirvey.github.io/Scalping-Bot-SaaS/) |
 | DevOps Learn | DevOps learning platform | [Live](https://zirvey.github.io/DevOps-Learn/) |
-| BioMarket | Subscription e-commerce (Prague) | Private · case study on site |
+| PlantUp | Subscription marketplace (Prague farmers) | [Live](https://zirvey.github.io/PlantUp-SaaS/app/) |
 | Dota Companion | Flutter mobile app | Private · case study on site |
 
 ## Contact

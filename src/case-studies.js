@@ -35,8 +35,7 @@ export const caseStudies = {
     beforeImage: "case-studies/before-w-steak.jpg",
     demo: "https://zirvey.github.io/w-steak-restaurant-landing-page-v2/",
     github: "https://github.com/Zirvey/w-steak-restaurant-landing-page-v2",
-    afterImage:
-      "https://raw.githubusercontent.com/Zirvey/w-steak-restaurant-landing-page-v2/main/docs/screenshots/hero-desktop.jpg",
+    afterImage: "projects/w-steak-editorial.jpg",
     challenge:
       "After the dark & gold v1 concept, I explored a second creative direction for W Steak Restaurant — could the same brand feel premium through warm editorial layout instead of neon luxury?",
     approach: [
@@ -190,31 +189,31 @@ export const caseStudies = {
     stack: "Flutter, Dart, Riverpod, GoRouter, OpenDota API, STRATZ API, Hive",
     role: "Product idea, UI/UX, mobile development, API integration",
   },
-  biomark: {
-    title: "BioMarket",
+  plantup: {
+    title: "PlantUp",
     kind: "product",
-    type: "Full-Stack Product · Private",
-    tags: ["Next.js", "Subscription", "E-commerce"],
-    private: true,
+    type: "Full-Stack Product · Subscription Marketplace",
+    tags: ["SaaS", "Subscription", "E-commerce", "CS/RU/EN"],
+    private: false,
     official: null,
-    demo: null,
-    github: null,
-    afterImage: "projects/biomark-web.jpg",
+    demo: "https://zirvey.github.io/PlantUp-SaaS/app/",
+    github: "https://github.com/Zirvey/PlantUp-SaaS",
+    afterImage: "projects/plantup.jpg",
     challenge:
-      "Connect Prague residents directly with Czech farmers — a subscription club for fresh BIO produce at farmer prices, with weekly delivery across Holešovice, Vinohrady, Žižkov, and Dejvice.",
+      "Connect Prague residents directly with Czech farmers — a subscription club for fresh BIO produce at farmer prices, with weekly Friday delivery across Holešovice, Vinohrady, Žižkov, and Dejvice.",
     approach: [
-      "Designed and built the full web platform from idea to production on Vercel",
+      "Designed and built the full marketplace from idea to production",
       "Membership tiers (1 / 3 / 12 months) with eco-box options and nutrition perks",
-      "Farmer showcase, product catalog with filters, and subscription checkout flow",
-      "Russian-localised UI for the target market; plastic-free, farm-direct branding",
-      "End-to-end: frontend, backend logic, payments integration, deployment",
+      "Farmer showcase, product catalog with filters/sort, cart, and subscription flows",
+      "Multilingual CS / RU / EN UI for local and expat audiences",
+      "Plastic-free, farm-direct branding with delivery map and member stories",
     ],
     results: [
-      "Production platform serving Prague districts",
-      "Complete subscription e-commerce flow — not a redesign, built from zero",
-      "Private repository — case study and walkthrough available on request",
+      "Public live demo of the client marketplace",
+      "Complete subscription e-commerce flow — built from zero, not a redesign",
+      "Open-source repo with full product surface for farmers, clients, and partners",
     ],
-    stack: "Next.js, TypeScript, Tailwind CSS, Vercel",
+    stack: "Next.js, TypeScript, Tailwind CSS, GitHub Pages",
     role: "Product idea, UI/UX, frontend, backend, deployment",
   },
   "devops-learn": {
