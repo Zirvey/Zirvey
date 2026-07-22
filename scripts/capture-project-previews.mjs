@@ -30,7 +30,7 @@ const projects = [
     url: "https://zirvey.github.io/w-steak-restaurant-landing-page-v2/",
     /* Realtime pacing so Framer/CSS entrance + scroll animations actually play */
     realtime: true,
-    heroHoldS: 3.5,
+    heroHoldS: 1.5,
     savePoster: "w-steak-editorial.jpg",
   },
   {
