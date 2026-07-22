@@ -191,13 +191,13 @@ html[data-theme="dark"] body::before {
 
   /* ── Hero ── */
   .hero-section {
-    @apply relative flex min-h-[100svh] flex-col overflow-hidden px-5 pt-20 pb-6 sm:px-8 lg:px-12;
+    @apply relative flex min-h-[100svh] flex-col overflow-x-clip px-5 pt-20 pb-6 sm:px-8 lg:px-12;
     --hero-progress: 0;
     --hero-title-y: 0px;
   }
 
   .hero-stage {
-    @apply relative z-10 flex flex-1 flex-col items-center justify-start pt-[2vh];
+    @apply relative z-10 flex flex-1 flex-col items-center justify-start overflow-hidden pt-[2vh];
   }
 
   .hero-title-wrap {
@@ -251,7 +251,7 @@ html[data-theme="dark"] body::before {
   }
 
   .hero-thumb {
-    @apply pointer-events-none absolute bottom-[5.75rem] left-1/2 z-[25] m-0 w-[160px] -translate-x-1/2 overflow-hidden rounded-[1.15rem] border border-border/60 bg-bg shadow-[0_16px_48px_-14px_rgba(17,17,17,0.4)] sm:bottom-[5.5rem] sm:w-[184px] md:w-[200px];
+    @apply pointer-events-none relative z-[25] mx-auto mt-2 mb-5 w-[120px] overflow-hidden rounded-[1.15rem] border border-border/60 bg-bg shadow-[0_16px_48px_-14px_rgba(17,17,17,0.4)] sm:absolute sm:bottom-[5.5rem] sm:left-1/2 sm:mt-0 sm:mb-0 sm:w-[184px] sm:-translate-x-1/2 md:w-[200px];
     transform-style: preserve-3d;
   }
 
@@ -289,13 +289,21 @@ html[data-theme="dark"] body::before {
   }
 
   @media (max-width: 639px) {
-    .hero-year,
-    .hero-since {
-      @apply text-center;
+    .hero-bottom {
+      @apply gap-2;
+    }
+
+    .hero-year {
+      @apply text-center text-[clamp(2rem,11vw,2.75rem)];
     }
 
     .hero-since {
-      @apply mx-auto max-w-none;
+      @apply mx-auto max-w-none text-center;
+    }
+
+    /* Keep room so the in-flow portrait never sits on ©2026 */
+    .hero-thumb:not(.is-floating):not(.is-settled) {
+      @apply mb-6;
     }
   }
 

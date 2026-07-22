@@ -5,6 +5,8 @@ const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)
 /** Lenis smooth scroll — Majd Smooth Scroll component */
 export function initSmoothScroll() {
   if (prefersReducedMotion.matches) return null;
+  /* Native touch scroll is more reliable for the portrait morph on phones */
+  if (window.matchMedia("(hover: none) and (pointer: coarse)").matches) return null;
 
   const lenis = new Lenis({
     duration: 1.2,
@@ -64,7 +66,15 @@ export function initHeroScrollCard(lenis) {
     return;
   }
 
+  const isCoarse =
+    window.matchMedia("(hover: none) and (pointer: coarse)").matches ||
+    window.matchMedia("(max-width: 639px)").matches;
+
   let metrics = null;
+  let ticking = false;
+
+  const viewportHeight = () =>
+    window.visualViewport?.height || window.innerHeight;
 
   const measure = () => {
     const wasFloating = card.classList.contains("is-floating");
@@ -107,6 +117,7 @@ export function initHeroScrollCard(lenis) {
     card.style.filter = "";
     card.style.backfaceVisibility = "";
     card.style.transformOrigin = "";
+    card.style.webkitTransform = "";
     const img = card.querySelector("img");
     if (img) {
       img.style.removeProperty("filter");
@@ -132,14 +143,19 @@ export function initHeroScrollCard(lenis) {
     if (!metrics) measure();
 
     const scroll = lenis?.scroll ?? window.scrollY;
-    const vh = window.innerHeight;
-    const raw = Math.min(1, Math.max(0, scroll / vh));
+    const vh = viewportHeight();
+    const travel = isCoarse ? vh * 1.15 : vh;
+    const raw = Math.min(1, Math.max(0, scroll / travel));
     const progress = easeInOutCubic(raw);
     const colorMix = smoothstep(0.55, 1, progress);
-    const rotateY = Math.sin(progress * Math.PI) * 88;
+    const flipMax = isCoarse ? 36 : 88;
+    const rotateY = Math.sin(progress * Math.PI) * flipMax;
 
     hero.style.setProperty("--hero-progress", raw.toFixed(4));
-    hero.style.setProperty("--hero-title-y", `${-raw * vh * 0.26}px`);
+    hero.style.setProperty(
+      "--hero-title-y",
+      `${-raw * vh * (isCoarse ? 0.12 : 0.26)}px`,
+    );
 
     if (raw >= 0.998) {
       if (!card.classList.contains("is-settled")) settle();
@@ -159,6 +175,17 @@ export function initHeroScrollCard(lenis) {
       clearFloatingStyles();
       bioSlot.classList.remove("is-landed");
       return;
+    }
+
+    if (isCoarse && raw > 0.05 && raw < 0.95) {
+      const bioRect = bioSlot.getBoundingClientRect();
+      metrics.endDoc = {
+        left: bioRect.left + window.scrollX,
+        top: bioRect.top + window.scrollY,
+        width: bioRect.width,
+        height: bioRect.height,
+        radius: parseFloat(getComputedStyle(bioSlot).borderRadius) || 28,
+      };
     }
 
     bioSlot.classList.remove("is-landed");
@@ -181,7 +208,6 @@ export function initHeroScrollCard(lenis) {
     card.style.width = `${width}px`;
     card.style.height = `${height}px`;
     card.style.borderRadius = `${radius}px`;
-    /* Match page background so the edge-on flip never flashes a colored slab */
     const bgHex =
       getComputedStyle(document.documentElement).getPropertyValue("--color-bg").trim() ||
       "#f2f0ed";
@@ -198,9 +224,20 @@ export function initHeroScrollCard(lenis) {
       img.style.backfaceVisibility = "visible";
     }
 
-    card.style.transform = `perspective(1200px) rotateY(${rotateY}deg)`;
+    const transform = `perspective(900px) rotateY(${rotateY}deg)`;
+    card.style.transform = transform;
+    card.style.webkitTransform = transform;
     card.style.transformOrigin = "center center";
     card.style.backfaceVisibility = "visible";
+  };
+
+  const requestUpdate = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      update();
+      ticking = false;
+    });
   };
 
   measure();
@@ -213,12 +250,12 @@ export function initHeroScrollCard(lenis) {
   };
 
   window.addEventListener("resize", onResize, { passive: true });
+  window.visualViewport?.addEventListener("resize", onResize, { passive: true });
 
   if (lenis) {
-    lenis.on("scroll", update);
-  } else {
-    window.addEventListener("scroll", update, { passive: true });
+    lenis.on("scroll", requestUpdate);
   }
+  window.addEventListener("scroll", requestUpdate, { passive: true });
 }
 
 /** @deprecated alias */
