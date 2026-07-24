@@ -25,11 +25,28 @@ export const caseStudies = {
       "Reused official photography and menu data for realistic demonstration",
     ],
     stack: "HTML, CSS, Vanilla JS",
+    ru: {
+      type: "UI/UX концепт редизайна",
+      challenge:
+        "Официальный сайт W Steak Restaurant узнаваем, но лендинг выглядел устаревшим — плотная вёрстка, слабая визуальная иерархия и мобильный опыт, который не соответствовал премиум-позиции стейк- и виски-бара в Праге.",
+      approach: [
+        "Разобрал структуру wrestaurant.cz, путь по меню и бронированию",
+        "Собрал тёмно-золотую дизайн-систему под премиум-идентичность ресторана",
+        "Сделал bento-hero, блок опыта, акценты меню и about-секцию",
+        "Приоритизировал mobile-first вёрстку с понятными CTA на бронирование",
+      ],
+      results: [
+        "Цельный премиум dark-эстетик с золотой акцент-системой",
+        "Ясная иерархия: hero → опыт → меню → контакты",
+        "Полностью адаптивный концепт на GitHub Pages",
+        "Официальные фото и данные меню для реалистичной демонстрации",
+      ],
+    },
   },
   "w-steak-v2": {
-    title: "W Steak Restaurant · Editorial (v2)",
+    title: "W Steak · Editorial",
     kind: "concept",
-    type: "UI/UX Redesign Concept · Alternative Direction",
+    type: "Concept Redesign",
     tags: ["HTML", "Editorial", "Hospitality"],
     official: "https://wrestaurant.cz/",
     beforeImage: "case-studies/before-w-steak.jpg",
@@ -37,20 +54,37 @@ export const caseStudies = {
     github: "https://github.com/Zirvey/w-steak-restaurant-landing-page-v2",
     afterImage: "projects/w-steak-editorial.jpg",
     challenge:
-      "After the dark & gold v1 concept, I explored a second creative direction for W Steak Restaurant — could the same brand feel premium through warm editorial layout instead of neon luxury?",
+      "W Steak Restaurant in Prague has a strong brand, but the site didn’t feel as premium as the steak & whiskey experience. This concept redesign explores a warm editorial direction — parchment, saffron, and typography-led hierarchy — instead of a dark luxury look.",
     approach: [
-      "Re-audited wrestaurant.cz content with a parchment-and-saffron editorial lens",
+      "Audited wrestaurant.cz content with a parchment-and-saffron editorial lens",
       "Defined a warm canvas system: sharp edges, saffron accent, typography-led hierarchy",
       "Built hero, experience, menu, and about sections with scroll-driven editorial rhythm",
-      "Paired v2 with v1 as a dual-concept portfolio exploration of one real brand",
+      "Prioritised mobile-first responsive layout with clear reservation CTAs",
     ],
     results: [
-      "Distinct editorial alternative alongside the original dark & gold concept",
+      "A cohesive editorial concept redesign for a real steak restaurant brand",
       "Warm hospitality feel without losing premium positioning",
       "Fully responsive concept with desktop and mobile screenshots",
-      "Live GitHub Pages demo deployed as v2 portfolio piece",
+      "Live GitHub Pages demo for portfolio presentation",
     ],
     stack: "HTML, CSS, Vanilla JS",
+    ru: {
+      type: "Концепт редизайна",
+      challenge:
+        "У W Steak Restaurant в Праге сильный бренд, но сайт не звучал так же премиально, как сам стейк- и виски-бар. Этот концепт редизайна исследует тёплый editorial-подход — пергамент, шафран и типографическая иерархия — вместо тёмной роскоши.",
+      approach: [
+        "Разобрал контент wrestaurant.cz через editorial-линзу: пергамент и шафран",
+        "Задал тёплую canvas-систему: острые края, шафрановый акцент, типографическая иерархия",
+        "Собрал hero, опыт, меню и about со scroll-driven editorial-ритмом",
+        "Приоритизировал mobile-first вёрстку с понятными CTA на бронирование",
+      ],
+      results: [
+        "Цельный editorial-концепт редизайна для реального стейк-ресторана",
+        "Тёплое hospitality-ощущение без потери премиум-позиции",
+        "Полностью адаптивный концепт со скриншотами desktop и mobile",
+        "Живое демо на GitHub Pages для портфолио",
+      ],
+    },
   },
   smokehouse: {
     title: "Smokehouse Prague",
@@ -78,6 +112,23 @@ export const caseStudies = {
       "Deployed live demo on GitHub Pages",
     ],
     stack: "Next.js 15, TypeScript, Tailwind CSS v4, Framer Motion",
+    ru: {
+      type: "UI/UX концепт редизайна",
+      challenge:
+        "У Smokehouse три локации в Праге и лояльная аудитория, но сайт не передавал премиум-атмосферу лаунжа — навигация была перегружена, анимаций не было, и бренд выглядел статично онлайн.",
+      approach: [
+        "Изучил архитектуру smokehouse.cz по локациям и программе лояльности",
+        "Сохранил чешский копирайт и оригинальные бренд-ассеты",
+        "Спроектировал scroll-driven секции: hero, фичи, локации, лояльность, CTA",
+        "Внедрил микроинтеракции на Framer Motion и layout-систему на Tailwind v4",
+      ],
+      results: [
+        "Современный dark lounge-эстетик с золотыми акцентами и плавными входами",
+        "Контент по нескольким локациям в удобной для сканирования структуре",
+        "Production-grade код на Next.js 15 + TypeScript с CI",
+        "Живое демо на GitHub Pages",
+      ],
+    },
   },
   "smoky-place": {
     title: "Smoky Place",
@@ -105,6 +156,23 @@ export const caseStudies = {
       "Live GitHub Pages demo ready for portfolio presentation",
     ],
     stack: "HTML, CSS, Vanilla JS",
+    ru: {
+      type: "UI/UX концепт редизайна",
+      challenge:
+        "Smoky Place — кальянная на Chodov в Праге с узнаваемым брендом, но сайт не давал визуального удара: VIP-лаунж, ивенты и отзывы были спрятаны без сильных призывов к действию.",
+      approach: [
+        "Составил user journey smokyplace.cz: discovery → меню → VIP → бронирование",
+        "Сделал dark-тему с красным акцентом и glowing coal в hero",
+        "Выделил секции меню, private lounge, календаря ивентов и карусели отзывов",
+        "Собрал модалку бронирования и sticky-навигацию для мобильных",
+      ],
+      results: [
+        "Премиум-ощущение кальянной с красно-золотой палитрой",
+        "VIP-лаунж и ивенты как первоклассные секции",
+        "Чешская локализация, scroll-анимации и адаптивная вёрстка",
+        "Живое демо на GitHub Pages для портфолио",
+      ],
+    },
   },
   booking: {
     title: "Booking Telegram App",
@@ -133,6 +201,25 @@ export const caseStudies = {
     ],
     stack: "Telegram Bot API, Mini App, PostgreSQL, Google Calendar, Python, Vercel",
     role: "Product idea, UI/UX, backend, frontend, deployment",
+    ru: {
+      type: "Full-Stack продукт",
+      role: "Идея продукта, UI/UX, backend, frontend, деплой",
+      challenge:
+        "Сервисный бизнес — тренеры, барберы, репетиторы, терапевты — теряет клиентов в хаотичных личных сообщениях и пропускает записи. Нужна готовая система бронирования без найма команды и сайта с нуля.",
+      approach: [
+        "С нуля определил идею продукта, user flows и white-label позиционирование",
+        "Собрал backend целиком: PostgreSQL, логика расписания, синхронизация с Google Calendar, напоминания",
+        "Разработал Telegram Bot + Mini App frontend с UI-темами под ниши",
+        "Выпустил админку, RBAC, мультиязычность и health-мониторинг",
+        "Сделал интерактивное демо для презентаций и онбординга клиентов",
+      ],
+      results: [
+        "End-to-end продукт — от идеи до деплоя",
+        "Бронирование за 2–3 тапа внутри Telegram, отдельный сайт не нужен",
+        "White-label темы под ниши (тренер, барбер, репетитор) — не общий шаблон",
+        "Production-ready стек с автомониторингом на Railway/Vercel",
+      ],
+    },
   },
   "helix-trade": {
     title: "Helix Trade",
@@ -161,6 +248,25 @@ export const caseStudies = {
     ],
     stack: "Python, JavaScript, HTML/CSS, Polymarket API",
     role: "Product idea, trading logic, brand/UI, dashboard, data pipeline, deployment",
+    ru: {
+      type: "Full-Stack продукт · SaaS на продажу",
+      role: "Идея продукта, торговая логика, бренд/UI, дашборд, data pipeline, деплой",
+      challenge:
+        "Упаковать Polymarket 5-минутный скальпинг-бот (BTC/ETH/SOL) в готовый SaaS — с проверенной статистикой, sales deck, кабинетом трейдера, подписочным UX и архитектурой, готовой к передаче.",
+      approach: [
+        "Спроектировал бренд Helix Trade, neon-систему, лендинг, прайсинг и auth-флоу",
+        "Собрал автоскальпинг-бот с edge-входами, риск-гардами и правилами выхода",
+        "Разработал кабинет трейдера: дашборд, позиции, журнал, бэктест и консоль",
+        "Выпустил UX подписки — trial + paid — и sales deck на GitHub Pages",
+        "Проверил стратегию на 1 632 paper-сделках с автопайплайном метрик",
+      ],
+      results: [
+        "Готовый SaaS: сайт + бот + дашборд + подписочный UX",
+        "Проверенные метрики: 74.6% win rate, +$533 PnL на 1 632 сделках",
+        "Живой sales deck и UI продукта на GitHub Pages",
+        "Готовая к запуску Polymarket-платформа для продажи или собственного старта",
+      ],
+    },
   },
   dota: {
     title: "Dota Companion",
@@ -188,6 +294,24 @@ export const caseStudies = {
     ],
     stack: "Flutter, Dart, Riverpod, GoRouter, OpenDota API, STRATZ API, Hive",
     role: "Product idea, UI/UX, mobile development, API integration",
+    ru: {
+      type: "Full-Stack продукт · Private",
+      role: "Идея продукта, UI/UX, мобильная разработка, API-интеграция",
+      challenge:
+        "Игрокам Dota 2 нужны win rate по мете, помощь в драфте и поиск профиля в одном быстром мобильном приложении — без вкладок браузера и устаревших сторонних инструментов.",
+      approach: [
+        "С нуля собрал Flutter-приложение: Hero Meta, Draft Assistant и Player Profile",
+        "Подключил OpenDota API для live win rate по рангам (Herald–Immortal)",
+        "Модуль драфта: контрпики, синергия, командный draft score, импорт матча",
+        "Поиск по Steam ID с историей матчей; опционально STRATZ API для синергии",
+        "Тёмный gaming UI на Riverpod с кэшем, удобным офлайн",
+      ],
+      results: [
+        "Полноценный мобильный companion — дизайн и разработка соло",
+        "Три ключевых модуля: Meta, Draft, Profile",
+        "Приватный репозиторий — скриншот и walkthrough по запросу",
+      ],
+    },
   },
   plantup: {
     title: "PlantUp",
@@ -215,6 +339,24 @@ export const caseStudies = {
     ],
     stack: "Next.js, TypeScript, Tailwind CSS, GitHub Pages",
     role: "Product idea, UI/UX, frontend, backend, deployment",
+    ru: {
+      type: "Full-Stack продукт · Подписочный маркетплейс",
+      role: "Идея продукта, UI/UX, frontend, backend, деплой",
+      challenge:
+        "Связать жителей Праги напрямую с чешскими фермерами — подписочный клуб свежей BIO-продукции по фермерским ценам с еженедельной пятничной доставкой по Holešovice, Vinohrady, Žižkov и Dejvice.",
+      approach: [
+        "Спроектировал и собрал маркетплейс от идеи до production",
+        "Тарифы членства (1 / 3 / 12 месяцев) с eco-box опциями и nutrition-бонусами",
+        "Витрина фермеров, каталог с фильтрами/сортировкой, корзина и подписочные флоу",
+        "Мультиязычный UI CS / RU / EN для локальной и экспат-аудитории",
+        "Plastic-free, farm-direct брендинг с картой доставки и историями участников",
+      ],
+      results: [
+        "Публичное live-демо клиентского маркетплейса",
+        "Полный подписочный e-commerce флоу — с нуля, не редизайн",
+        "Open-source репозиторий с полной продуктовой поверхностью для фермеров, клиентов и партнёров",
+      ],
+    },
   },
   "devops-learn": {
     title: "DevOps Learn",
@@ -242,5 +384,24 @@ export const caseStudies = {
     ],
     stack: "React 19, TypeScript, Vite, React Router, React Markdown",
     role: "Product idea, curriculum, UI/UX, frontend, deployment",
+    ru: {
+      type: "Full-Stack продукт · Обучающая платформа",
+      role: "Идея продукта, учебная программа, UI/UX, frontend, деплой",
+      challenge:
+        "Джунам и людям, меняющим карьеру, нужно структурированное изучение DevOps — не разрозненные статьи. Self-paced платформа с теорией, упражнениями, прогрессом и практикой в одном месте.",
+      approach: [
+        "Структурировал 15 модулей и 50 глав: Linux, Git, Docker, K8s, CI/CD, Terraform, AWS, security",
+        "Собрал двуязычный RU/EN UI с переключением контента глав и dark/light темой",
+        "Добавил интерактивный terminal trainer для команд Linux и Git внутри уроков",
+        "Реализовал локальный трекинг прогресса, квизы и markdown-контент уроков",
+        "Развернул бесплатную публичную платформу на GitHub Pages",
+      ],
+      results: [
+        "Полная обучающая платформа — от основ до Office IT и карьерных модулей",
+        "50 глав по DevOps, SRE, cloud, мониторингу и sysadmin",
+        "Интерактивные проверки в терминале и прогресс в браузере",
+        "Live на zirvey.github.io/DevOps-Learn",
+      ],
+    },
   },
 };

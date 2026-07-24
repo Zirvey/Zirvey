@@ -26,6 +26,7 @@
     <a
       href="#main"
       class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[70] focus:rounded-lg focus:bg-ink focus:px-4 focus:py-2 focus:text-paper"
+      data-i18n="skipToContent"
     >
       Skip to content
     </a>
@@ -33,6 +34,10 @@
     <!-- Floating pill nav -->
     <header id="site-header" class="site-header">
       <a href="#hero-section" class="nav-brand">Temirlan</a>
+      <div class="nav-lang" role="group" data-i18n-aria="langGroup" aria-label="Language">
+        <button type="button" class="nav-lang-chip" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" class="nav-lang-chip" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
       <button
         id="theme-toggle"
         type="button"
@@ -65,7 +70,7 @@
     </header>
 
     <!-- Full-screen menu -->
-    <div id="menu-overlay" class="menu-overlay" aria-hidden="true" role="dialog" aria-label="Navigation">
+    <div id="menu-overlay" class="menu-overlay" aria-hidden="true" role="dialog" data-i18n-aria="navDialog" aria-label="Navigation">
       <div class="flex items-center justify-between px-5 pt-5 sm:px-8">
         <span class="text-sm font-medium tracking-[-0.02em]">Temirlan</span>
         <button
@@ -73,18 +78,20 @@
           type="button"
           class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-paper text-ink"
           aria-label="Close menu"
+          data-i18n-aria="closeMenu"
         >
           <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
       </div>
-      <nav class="flex flex-1 flex-col justify-center gap-1 px-5 sm:px-8 lg:px-12" aria-label="Main">
-        <a href="#hero-section" class="menu-link" style="transition-delay: 40ms"><span>Home</span></a>
-        <a href="#about" class="menu-link" style="transition-delay: 80ms"><span>About Me</span></a>
-        <a href="#services" class="menu-link" style="transition-delay: 120ms"><span>Services</span></a>
-        <a href="#work" class="menu-link" style="transition-delay: 160ms"><span>Works</span></a>
-        <a href="#contact" class="menu-link" style="transition-delay: 200ms"><span>Contact</span></a>
+      <nav class="flex flex-1 flex-col justify-center gap-1 px-5 sm:px-8 lg:px-12" data-i18n-aria="navMain" aria-label="Main">
+        <a href="#hero-section" class="menu-link" style="transition-delay: 40ms"><span data-i18n="menuHome">Home</span></a>
+        <a href="#about" class="menu-link" style="transition-delay: 80ms"><span data-i18n="menuAbout">About Me</span></a>
+        <a href="./resume.html" class="menu-link" style="transition-delay: 120ms"><span data-i18n="menuResume">Resume</span></a>
+        <a href="#services" class="menu-link" style="transition-delay: 160ms"><span data-i18n="menuServices">Services</span></a>
+        <a href="#work" class="menu-link" style="transition-delay: 200ms"><span data-i18n="menuWorks">Works</span></a>
+        <a href="#contact" class="menu-link" style="transition-delay: 240ms"><span data-i18n="menuContact">Contact</span></a>
       </nav>
       <div class="px-5 pb-8 sm:px-8">
         <a href="mailto:Temirlankakishev@gmail.com" class="text-sm text-paper/60 transition-opacity hover:text-paper">
@@ -98,7 +105,7 @@
       <section id="hero-section" class="hero-section">
         <div class="hero-stage">
           <div class="hero-title-wrap">
-            <h1 class="hero-title" data-rolling-text>
+            <h1 class="hero-title" data-rolling-text data-i18n-rolling="heroTitle">
               <svg class="hero-sparkle" viewBox="0 0 40 40" fill="none" aria-hidden="true">
                 <path d="M20 0L22.5 17.5L40 20L22.5 22.5L20 40L17.5 22.5L0 20L17.5 17.5L20 0Z" fill="#111" />
               </svg>
@@ -119,24 +126,36 @@
                 </defs>
               </svg>
             </h1>
-            <p class="hero-subtitle">DevOps, Full-Stack</p>
+            <p class="hero-subtitle" data-i18n="heroSubtitle">DevOps, Full-Stack</p>
           </div>
         </div>
 
         <figure class="hero-thumb hero-portrait-card" aria-hidden="false">
           <img
+            class="portrait-face portrait-face-front"
             src="/profile.png"
             alt="Temirlan Kakishev"
+            data-i18n-alt="portraitAlt"
             width="1024"
             height="1024"
             loading="eager"
             decoding="async"
           />
+          <img
+            class="portrait-face portrait-face-back"
+            src="/profile.png"
+            alt=""
+            width="1024"
+            height="1024"
+            loading="eager"
+            decoding="async"
+            aria-hidden="true"
+          />
         </figure>
 
         <div class="hero-bottom">
           <p class="hero-year">©2026</p>
-          <p class="hero-since">/ Prague · Creating since 2022</p>
+          <p class="hero-since" data-i18n="heroSince">/ Prague · Creating since 2022</p>
         </div>
       </section>
 
@@ -145,8 +164,8 @@
         <div class="section-inner">
           <div class="bio-grid">
             <div class="reveal">
-              <h2 class="bio-hey">Hey!</h2>
-              <p class="bio-intro">
+              <h2 class="bio-hey" data-i18n="bioHey">Hey!</h2>
+              <p class="bio-intro" data-i18n-html="bioIntroHtml">
                 I'm <strong>Temirlan</strong>, a builder based in
                 <strong>Prague</strong>, currently designing interfaces and shipping
                 full-stack products — from hospitality concepts to Telegram apps and trading tools.
@@ -158,6 +177,7 @@
                 <img
                   src="/profile.png"
                   alt="Temirlan Kakishev"
+                  data-i18n-alt="portraitAlt"
                   width="1024"
                   height="1024"
                   loading="lazy"
@@ -167,17 +187,17 @@
             </div>
 
             <div class="reveal bio-copy">
-              <p>
+              <p data-i18n="bioP1">
                 I'm a UI/UX designer and product developer with a strong focus on building
                 modern, scalable, and conversion-driven web experiences.
               </p>
-              <p>
+              <p data-i18n="bioP2">
                 Over the years I've designed and shipped multiple products end-to-end —
                 landing pages, SaaS dashboards, booking apps, and automation tools —
                 helping ideas move from concept to launch.
               </p>
               <a href="#contact" class="btn-arrow mt-6">
-                Let's talk
+                <span data-i18n="letsTalk">Let's talk</span>
                 <span class="btn-arrow-icon" aria-hidden="true">
                   <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
@@ -186,13 +206,32 @@
               </a>
             </div>
           </div>
+
+          <nav class="role-icons reveal" data-i18n-aria="resumeVersions" aria-label="Resume versions">
+            <a class="role-icon" href="./resume.html?role=uiux&lang=en" data-i18n-aria="roleUiux" data-i18n-title="roleUiuxTitle" aria-label="UI/UX Designer resume" title="UI/UX Designer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+              <span>UI/UX</span>
+            </a>
+            <a class="role-icon" href="./resume.html?role=devops&lang=en" data-i18n-aria="roleDevops" data-i18n-title="roleDevopsTitle" aria-label="DevOps resume" title="DevOps">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.7a1.72 1.72 0 0 0 1.7 0l-6.3 3.7c-.5.3-.9.9-.9 1.5v6.6c0 .6.4 1.2.9 1.5l6.3 3.7a1.72 1.72 0 0 0 1.7 0l6.3-3.7c.5-.3.9-.9.9-1.5Z"/><path d="M10.1 4.5 16 8v5"/><path d="m7 11 6 3.4V19"/><path d="M3.5 12.5 10 16"/><path d="M20.5 8.5 14 12"/></svg>
+              <span>DevOps</span>
+            </a>
+            <a class="role-icon" href="./resume.html?role=sysadmin&lang=en" data-i18n-aria="roleSysadmin" data-i18n-title="roleSysadminTitle" aria-label="System Administrator resume" title="System Administrator">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><path d="M6 6h.01M6 18h.01"/></svg>
+              <span>SysAdmin</span>
+            </a>
+            <a class="role-icon" href="./resume.html?role=helpdesk&lang=en" data-i18n-aria="roleHelpdesk" data-i18n-title="roleHelpdeskTitle" aria-label="IT Helpdesk resume" title="IT Helpdesk">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg>
+              <span>Helpdesk</span>
+            </a>
+          </nav>
         </div>
       </section>
 
       <!-- Scroll quote -->
-      <section class="scroll-text-section" aria-label="Philosophy">
+      <section class="scroll-text-section" data-i18n-aria="philosophyLabel" aria-label="Philosophy">
         <div class="scroll-text-sticky">
-          <p class="scroll-text" data-scroll-text>
+          <p class="scroll-text" data-scroll-text data-i18n="scrollQuote">
             From idea to launch. Clean, scalable digital products built to move fast,
             stay simple, and perform in real-world use — driven by clarity, structured
             systems, and intentional design.
@@ -203,23 +242,23 @@
       <!-- Services -->
       <section id="services" class="section-pad">
         <div class="section-inner">
-          <h2 class="section-title reveal mb-10">Services</h2>
+          <h2 class="section-title reveal mb-10" data-i18n="servicesTitle">Services</h2>
           <div class="reveal">
             <div class="service-row">
-              <h3>UI/UX Design</h3>
-              <p class="service-tags">Landing Pages · Design Systems · Prototyping</p>
+              <h3 data-i18n="svcUiux">UI/UX Design</h3>
+              <p class="service-tags" data-i18n="svcUiuxTags">Landing Pages · Design Systems · Prototyping</p>
             </div>
             <div class="service-row">
-              <h3>Full-Stack Products</h3>
-              <p class="service-tags">Telegram Apps · SaaS · White-label</p>
+              <h3 data-i18n="svcFullstack">Full-Stack Products</h3>
+              <p class="service-tags" data-i18n="svcFullstackTags">Telegram Apps · SaaS · White-label</p>
             </div>
             <div class="service-row">
-              <h3>Frontend Development</h3>
-              <p class="service-tags">UI Dev · Responsive Layouts · Web Performance</p>
+              <h3 data-i18n="svcFrontend">Frontend Development</h3>
+              <p class="service-tags" data-i18n="svcFrontendTags">UI Dev · Responsive Layouts · Web Performance</p>
             </div>
             <div class="service-row">
-              <h3>Automation &amp; DevOps</h3>
-              <p class="service-tags">Python · CI/CD · Infrastructure</p>
+              <h3 data-i18n="svcAutomation">Automation &amp; DevOps</h3>
+              <p class="service-tags" data-i18n="svcAutomationTags">Python · CI/CD · Infrastructure</p>
             </div>
           </div>
         </div>
@@ -229,51 +268,32 @@
       <section id="work" class="section-pad">
         <div class="section-inner">
           <div class="reveal mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2 class="section-title" data-i18n="workTitle">Featured Projects</h2>
             <div class="flex flex-wrap gap-2">
-              <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
-              <button type="button" class="filter-btn" data-filter="concept" aria-pressed="false">UI Concepts</button>
-              <button type="button" class="filter-btn" data-filter="product" aria-pressed="false">Products</button>
+              <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true" data-i18n="filterAll">All</button>
+              <button type="button" class="filter-btn" data-filter="concept" aria-pressed="false" data-i18n="filterConcept">UI Concepts</button>
+              <button type="button" class="filter-btn" data-filter="product" aria-pressed="false" data-i18n="filterProduct">Products</button>
             </div>
           </div>
 
           <div class="grid gap-8 sm:grid-cols-2 lg:gap-10">
-            <!-- W Steak v1 -->
-            <article class="project-card reveal" data-category="concept">
-              <a href="https://zirvey.github.io/w-steak-restaurant-landing-page/" target="_blank" rel="noopener noreferrer" class="project-frame block">
-                <div class="project-frame-inner" data-hover-video="projects/previews/w-steak.mp4">
-                  <img
-                    src="https://raw.githubusercontent.com/Zirvey/w-steak-restaurant-landing-page/main/docs/screenshots/hero-desktop.jpg"
-                    alt="W Steak Restaurant concept"
-                    loading="lazy"
-                  />
-                </div>
-              </a>
-              <div class="project-meta">
-                <h3>W Steak Restaurant</h3>
-                <p>UI/UX Redesign Concept · Dark &amp; Gold</p>
-                <div class="mt-3 flex flex-wrap gap-2">
-                  <button type="button" data-case-study="w-steak" class="btn-case">Case study</button>
-                </div>
-              </div>
-            </article>
-
-            <!-- W Steak v2 -->
+            <!-- W Steak Editorial (concept redesign) -->
             <article class="project-card reveal" data-category="concept">
               <a href="https://zirvey.github.io/w-steak-restaurant-landing-page-v2/" target="_blank" rel="noopener noreferrer" class="project-frame block">
                 <div class="project-frame-inner" data-hover-video="projects/previews/w-steak-v2.mp4">
                   <img
                     src="projects/w-steak-editorial.jpg"
-                    alt="W Steak Restaurant editorial v2"
+                    alt="W Steak Editorial concept redesign"
+                    data-i18n-alt="projectWSteakEdAlt"
                     loading="lazy"
                   />
                 </div>
               </a>
               <div class="project-meta">
-                <h3>W Steak · Editorial</h3>
-                <p>UI/UX Concept · Alternative Direction</p>
+                <h3 data-i18n="projectWSteakEd">W Steak · Editorial</h3>
+                <p data-i18n="projectWSteakEdDesc">Concept redesign · Editorial</p>
                 <div class="mt-3 flex flex-wrap gap-2">
-                  <button type="button" data-case-study="w-steak-v2" class="btn-case">Case study</button>
+                  <button type="button" data-case-study="w-steak-v2" class="btn-case" data-i18n="caseStudy">Case study</button>
                 </div>
               </div>
             </article>
@@ -285,15 +305,16 @@
                   <img
                     src="https://raw.githubusercontent.com/Zirvey/smokehouse-desing/main/docs/hero.png"
                     alt="Smokehouse Prague concept"
+                    data-i18n-alt="projectSmokehouseAlt"
                     loading="lazy"
                   />
                 </div>
               </a>
               <div class="project-meta">
-                <h3>Smokehouse Prague</h3>
-                <p>UI/UX Concept · Next.js · Framer Motion</p>
+                <h3 data-i18n="projectSmokehouse">Smokehouse Prague</h3>
+                <p data-i18n="projectSmokehouseDesc">UI/UX Concept · Next.js · Framer Motion</p>
                 <div class="mt-3 flex flex-wrap gap-2">
-                  <button type="button" data-case-study="smokehouse" class="btn-case">Case study</button>
+                  <button type="button" data-case-study="smokehouse" class="btn-case" data-i18n="caseStudy">Case study</button>
                 </div>
               </div>
             </article>
@@ -305,15 +326,16 @@
                   <img
                     src="https://raw.githubusercontent.com/Zirvey/smoky-place-landing-page/main/docs/screenshots/hero.png"
                     alt="Smoky Place concept"
+                    data-i18n-alt="projectSmokyAlt"
                     loading="lazy"
                   />
                 </div>
               </a>
               <div class="project-meta">
-                <h3>Smoky Place</h3>
-                <p>UI/UX Concept · Dark &amp; Red</p>
+                <h3 data-i18n="projectSmoky">Smoky Place</h3>
+                <p data-i18n="projectSmokyDesc">UI/UX Concept · Dark &amp; Red</p>
                 <div class="mt-3 flex flex-wrap gap-2">
-                  <button type="button" data-case-study="smoky-place" class="btn-case">Case study</button>
+                  <button type="button" data-case-study="smoky-place" class="btn-case" data-i18n="caseStudy">Case study</button>
                 </div>
               </div>
             </article>
@@ -325,15 +347,16 @@
                   <img
                     src="https://raw.githubusercontent.com/Zirvey/Booking-Telegram-App-Prewiev/main/docs/screenshots/general/hero-banner.png"
                     alt="Booking Telegram App"
+                    data-i18n-alt="projectBookingAlt"
                     loading="lazy"
                   />
                 </div>
               </a>
               <div class="project-meta">
-                <h3>Booking Telegram App</h3>
-                <p>Full-Stack Product · Mini App</p>
+                <h3 data-i18n="projectBooking">Booking Telegram App</h3>
+                <p data-i18n="projectBookingDesc">Full-Stack Product · Mini App</p>
                 <div class="mt-3 flex flex-wrap gap-2">
-                  <button type="button" data-case-study="booking" class="btn-case">Case study</button>
+                  <button type="button" data-case-study="booking" class="btn-case" data-i18n="caseStudy">Case study</button>
                 </div>
               </div>
             </article>
@@ -345,15 +368,16 @@
                   <img
                     src="https://raw.githubusercontent.com/Zirvey/Scalping-Bot-SaaS/main/assets/screenshots/01-helix-landing.png"
                     alt="Helix Trade"
+                    data-i18n-alt="projectHelixAlt"
                     loading="lazy"
                   />
                 </div>
               </a>
               <div class="project-meta">
-                <h3>Helix Trade</h3>
-                <p>Full-Stack Product · Trading Bot SaaS</p>
+                <h3 data-i18n="projectHelix">Helix Trade</h3>
+                <p data-i18n="projectHelixDesc">Full-Stack Product · Trading Bot SaaS</p>
                 <div class="mt-3 flex flex-wrap gap-2">
-                  <button type="button" data-case-study="helix-trade" class="btn-case">Case study</button>
+                  <button type="button" data-case-study="helix-trade" class="btn-case" data-i18n="caseStudy">Case study</button>
                 </div>
               </div>
             </article>
@@ -365,15 +389,16 @@
                   <img
                     src="projects/devops-learn.jpg"
                     alt="DevOps Learn"
+                    data-i18n-alt="projectDevopsAlt"
                     loading="lazy"
                   />
                 </div>
               </a>
               <div class="project-meta">
-                <h3>DevOps Learn</h3>
-                <p>Learning Platform · React · TypeScript</p>
+                <h3 data-i18n="projectDevops">DevOps Learn</h3>
+                <p data-i18n="projectDevopsDesc">Learning Platform · React · TypeScript</p>
                 <div class="mt-3 flex flex-wrap gap-2">
-                  <button type="button" data-case-study="devops-learn" class="btn-case">Case study</button>
+                  <button type="button" data-case-study="devops-learn" class="btn-case" data-i18n="caseStudy">Case study</button>
                 </div>
               </div>
             </article>
@@ -385,16 +410,17 @@
                   <img
                     src="projects/dota-companion.jpg"
                     alt="Dota Companion"
+                    data-i18n-alt="projectDotaAlt"
                     class="mx-auto w-auto object-contain"
                     loading="lazy"
                   />
                 </div>
               </div>
               <div class="project-meta">
-                <h3>Dota Companion</h3>
-                <p>Flutter · Mobile · Private</p>
+                <h3 data-i18n="projectDota">Dota Companion</h3>
+                <p data-i18n="projectDotaDesc">Flutter · Mobile · Private</p>
                 <div class="mt-3 flex flex-wrap gap-2">
-                  <button type="button" data-case-study="dota" class="btn-case">Case study</button>
+                  <button type="button" data-case-study="dota" class="btn-case" data-i18n="caseStudy">Case study</button>
                 </div>
               </div>
             </article>
@@ -406,15 +432,16 @@
                   <img
                     src="projects/plantup.jpg"
                     alt="PlantUp"
+                    data-i18n-alt="projectPlantupAlt"
                     loading="lazy"
                   />
                 </div>
               </a>
               <div class="project-meta">
-                <h3>PlantUp</h3>
-                <p>Full-Stack Product · Subscription Marketplace</p>
+                <h3 data-i18n="projectPlantup">PlantUp</h3>
+                <p data-i18n="projectPlantupDesc">Full-Stack Product · Subscription Marketplace</p>
                 <div class="mt-3 flex flex-wrap gap-2">
-                  <button type="button" data-case-study="plantup" class="btn-case">Case study</button>
+                  <button type="button" data-case-study="plantup" class="btn-case" data-i18n="caseStudy">Case study</button>
                 </div>
               </div>
             </article>
@@ -425,28 +452,28 @@
       <!-- Experience -->
       <section id="experience" class="section-pad">
         <div class="section-inner">
-          <h2 class="section-title reveal mb-10">Experience</h2>
+          <h2 class="section-title reveal mb-10" data-i18n="experienceTitle">Experience</h2>
           <div class="reveal">
             <article class="exp-row">
               <div>
-                <h3 class="text-xl font-semibold tracking-[-0.02em]">System Administrator</h3>
-                <p class="mt-1 text-sm text-muted">iGaming · Prague</p>
+                <h3 class="text-xl font-semibold tracking-[-0.02em]" data-i18n="expSysadmin">System Administrator</h3>
+                <p class="mt-1 text-sm text-muted" data-i18n="expIgaming">iGaming · Prague</p>
               </div>
-              <p class="text-sm text-muted">2026 — Present</p>
+              <p class="text-sm text-muted" data-i18n="expPresent">2026 — Present</p>
             </article>
             <article class="exp-row">
               <div>
-                <h3 class="text-xl font-semibold tracking-[-0.02em]">Freelance — Design &amp; Development</h3>
-                <p class="mt-1 text-sm text-muted">Remote</p>
+                <h3 class="text-xl font-semibold tracking-[-0.02em]" data-i18n="expFreelance">Freelance — Design &amp; Development</h3>
+                <p class="mt-1 text-sm text-muted" data-i18n="expRemote">Remote</p>
               </div>
-              <p class="text-sm text-muted">2024 — 2026</p>
+              <p class="text-sm text-muted" data-i18n="expFreelanceDates">2024 — 2026</p>
             </article>
             <article class="exp-row">
               <div>
-                <h3 class="text-xl font-semibold tracking-[-0.02em]">System Administrator</h3>
-                <p class="mt-1 text-sm text-muted">Trading company · Prague</p>
+                <h3 class="text-xl font-semibold tracking-[-0.02em]" data-i18n="expSysadmin">System Administrator</h3>
+                <p class="mt-1 text-sm text-muted" data-i18n="expTrading">Trading company · Prague</p>
               </div>
-              <p class="text-sm text-muted">2022 — 2024</p>
+              <p class="text-sm text-muted" data-i18n="expTradingDates">2022 — 2024</p>
             </article>
           </div>
         </div>
@@ -456,8 +483,8 @@
       <section id="contact" class="section-pad">
         <div class="section-inner grid gap-12 lg:grid-cols-2 lg:gap-20">
           <div class="reveal">
-            <h2 class="section-title">Let's talk.</h2>
-            <p class="mt-6 max-w-md text-base leading-relaxed tracking-[-0.02em] text-muted">
+            <h2 class="section-title" data-i18n="contactTitle">Let's talk.</h2>
+            <p class="mt-6 max-w-md text-base leading-relaxed tracking-[-0.02em] text-muted" data-i18n="contactLead">
               Have a project or need help? Fill out the form, and I'll get back to you soon.
               Based in Prague, open to remote work.
             </p>
@@ -470,18 +497,18 @@
             enctype="text/plain"
           >
             <label class="block">
-              <span class="mb-2 block text-sm font-medium tracking-[-0.02em]">Name</span>
-              <input class="contact-field" type="text" name="subject" placeholder="Enter your name" required />
+              <span class="mb-2 block text-sm font-medium tracking-[-0.02em]" data-i18n="formName">Name</span>
+              <input class="contact-field" type="text" name="subject" placeholder="Enter your name" data-i18n-placeholder="formNamePh" required />
             </label>
             <label class="block">
-              <span class="mb-2 block text-sm font-medium tracking-[-0.02em]">Email</span>
-              <input class="contact-field" type="email" name="cc" placeholder="Enter your email" required />
+              <span class="mb-2 block text-sm font-medium tracking-[-0.02em]" data-i18n="formEmail">Email</span>
+              <input class="contact-field" type="email" name="cc" placeholder="Enter your email" data-i18n-placeholder="formEmailPh" required />
             </label>
             <label class="block">
-              <span class="mb-2 block text-sm font-medium tracking-[-0.02em]">Your Project</span>
-              <textarea class="contact-field contact-field-area" name="body" placeholder="Tell me about your project" required></textarea>
+              <span class="mb-2 block text-sm font-medium tracking-[-0.02em]" data-i18n="formProject">Your Project</span>
+              <textarea class="contact-field contact-field-area" name="body" placeholder="Tell me about your project" data-i18n-placeholder="formProjectPh" required></textarea>
             </label>
-            <button type="submit" class="btn-primary w-full sm:w-auto" data-rolling-text>Submit</button>
+            <button type="submit" class="btn-primary w-full sm:w-auto" data-rolling-text data-i18n-rolling="formSubmit">Submit</button>
           </form>
         </div>
       </section>
@@ -491,7 +518,7 @@
       <p class="footer-watermark" aria-hidden="true">Temirlan</p>
       <div class="footer-content">
         <div class="footer-col max-w-xs">
-          <p class="text-lg font-semibold tracking-[-0.02em]">Building products with clarity and craft.</p>
+          <p class="text-lg font-semibold tracking-[-0.02em]" data-i18n="footerTagline">Building products with clarity and craft.</p>
           <div class="mt-6 flex gap-4">
             <a href="https://www.linkedin.com/in/temirlankakishev/" target="_blank" rel="noopener noreferrer" class="flex h-10 w-10 items-center justify-center rounded-full border border-border transition-colors hover:border-text/40" aria-label="LinkedIn">
               <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -506,15 +533,16 @@
           </div>
         </div>
         <div class="footer-col">
-          <h4>/ Quick links</h4>
-          <a href="#hero-section">Home</a>
-          <a href="#about">About Me</a>
-          <a href="#services">Services</a>
-          <a href="#work">Works</a>
-          <a href="#contact">Contact</a>
+          <h4 data-i18n="footerQuick">/ Quick links</h4>
+          <a href="#hero-section" data-i18n="menuHome">Home</a>
+          <a href="#about" data-i18n="menuAbout">About Me</a>
+          <a href="./resume.html" data-i18n="menuResume">Resume</a>
+          <a href="#services" data-i18n="menuServices">Services</a>
+          <a href="#work" data-i18n="menuWorks">Works</a>
+          <a href="#contact" data-i18n="menuContact">Contact</a>
         </div>
         <div class="footer-col">
-          <h4>/ Contact</h4>
+          <h4 data-i18n="footerContact">/ Contact</h4>
           <a href="mailto:Temirlankakishev@gmail.com">Temirlankakishev@gmail.com</a>
         </div>
       </div>
