@@ -130,7 +130,8 @@ html[data-theme="dark"] body::before {
     @apply fixed top-5 left-1/2 z-[70] flex -translate-x-1/2 items-center gap-2 rounded-full bg-ink py-1.5 pr-1.5 pl-5 text-paper shadow-lg shadow-black/10 transition-all duration-500 ease-out;
   }
 
-  .site-header.is-hidden {
+  .site-header.is-hidden,
+  body.menu-open .site-header {
     @apply pointer-events-none opacity-0;
     transform: translate(-50%, calc(-100% - 1.5rem));
   }
@@ -173,7 +174,7 @@ html[data-theme="dark"] body::before {
 
   /* Full-screen menu overlay */
   .menu-overlay {
-    @apply fixed inset-0 z-[60] flex flex-col bg-ink text-paper transition-all duration-500;
+    @apply fixed inset-0 z-[80] flex flex-col bg-ink text-paper transition-all duration-500;
   }
 
   .menu-overlay[aria-hidden="true"] {
@@ -182,6 +183,21 @@ html[data-theme="dark"] body::before {
 
   .menu-overlay[aria-hidden="false"] {
     @apply visible opacity-100;
+  }
+
+  .menu-overlay-bar {
+    @apply flex shrink-0 items-center justify-between gap-4 px-5 sm:px-8;
+    min-height: 4.25rem;
+    padding-top: max(1.25rem, env(safe-area-inset-top, 0px));
+    padding-bottom: 0.5rem;
+  }
+
+  .menu-overlay-brand {
+    @apply text-sm font-medium tracking-[-0.02em] text-paper;
+  }
+
+  .menu-close-btn {
+    @apply flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full bg-paper text-ink;
   }
 
   .menu-link {
