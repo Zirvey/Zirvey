@@ -33,7 +33,7 @@ I'm a hybrid builder: UI/UX design, full-stack products, and automation. This si
 
 ## Contact
 
-- **Email:** [Temirlankakishev@gmail.com](mailto:Temirlankakishev@gmail.com)
+- **Email:** [ZirveyDev@gmail.com](mailto:ZirveyDev@gmail.com)
 - **LinkedIn:** [linkedin.com/in/temirlankakishev](https://www.linkedin.com/in/temirlankakishev/)
 - **GitHub:** [github.com/Zirvey](https://github.com/Zirvey)
 
