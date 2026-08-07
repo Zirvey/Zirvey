@@ -27,7 +27,7 @@ export const I18N = {
     menuContact: "Contact",
 
     heroTitle: "UI/UX\nDESIGNER",
-    heroSubtitle: "DevOps, Full-Stack",
+    heroSubtitle: "DevOps, Full-Stack, System Administrator, IT Helpdesk",
     heroSince: "/ Prague · Creating since 2022",
     portraitAlt: "Temirlan Kakishev",
 
@@ -167,7 +167,7 @@ export const I18N = {
     menuContact: "Контакты",
 
     heroTitle: "UI/UX\nДИЗАЙНЕР",
-    heroSubtitle: "DevOps, Full-Stack",
+    heroSubtitle: "DevOps, Full-Stack, System Administrator, IT Helpdesk",
     heroSince: "/ Прага · Создаю с 2022",
     portraitAlt: "Temirlan Kakishev",
 
