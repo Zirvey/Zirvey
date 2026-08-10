@@ -49,188 +49,192 @@
     "uiux": {
       "en": {
         "position": "UI/UX Designer / Product Designer",
-        "summary": "UI/UX Designer and product builder based in Prague. Design and ship conversion-driven products — landing pages, SaaS dashboards, booking apps, trading tools — from wireframes and interactive prototypes to polished UI (Next.js, Framer Motion, design systems). Also build internal product tools (self-hosted ERP dashboards, LLM assistants).",
+        "summary": "UI/UX Designer and product builder based in Prague. Design and ship conversion-driven products — landing pages, SaaS dashboards, booking apps, trading tools — from wireframes and interactive prototypes to polished UI in Next.js, TypeScript, Tailwind CSS, and Framer Motion. Also own internal product tools (ERP-style dashboards, LLM assistants on GPU infrastructure) end-to-end.",
         "achievements": [
-          "Major UI/UX + logic upgrade of a trading bot product (Helix Trade): clearer flows, denser information design, and faster operator workflows.",
-          "Designed and shipped landing-page redesigns and interactive prototypes (Next.js, Framer Motion, responsive, brand-aligned dark/premium).",
-          "Built a fully self-hosted ERP-style dashboard with custom features for internal operations (end-to-end product ownership).",
-          "Designed role-based product UIs (buyer/seller/admin) for a subscription marketplace and a production Telegram booking Mini App.",
-          "Created hospitality UI concepts with strong typography, visual identity, and conversion-focused layouts.",
-          "Digitized and reorganized the company archive, reducing search/admin time by over 50%.",
-          "Delivered a company cybersecurity workshop and onboarding presentations for non-technical users.",
-          "Completed foundational cybersecurity courses (Fortinet, IBM) — useful for secure product and access UX decisions."
+          "Helix Trade — major UI/UX + logic upgrade of a trading-bot SaaS: clearer operator flows and denser information design.",
+          "Designed and shipped hospitality landing redesigns (W Steak, Smokehouse Prague, Smoky Place) with brand-aligned dark/premium direction.",
+          "Built production Telegram Booking Mini App UX: scheduling, reminders, Google Calendar, role-based flows.",
+          "Designed PlantUp subscription marketplace UI (buyer/seller/admin) with payments and dashboards.",
+          "Created interactive Framer Motion prototypes and responsive Next.js frontends from concept to launch.",
+          "Built a self-hosted ERP-style operations dashboard — end-to-end product ownership for internal users.",
+          "Designed UX for an internal LLM assistant (NVIDIA GPU server, corporate knowledge) used in daily employee workflows.",
+          "Shipped DevOps-Learn learning platform UI (React/TypeScript) as a structured product experience."
         ],
         "skills": [
           "UI/UX & Product Design: wireframes, interactive prototypes, design systems, user flows, conversion layouts, brand systems",
           "Motion & Frontend: Next.js, TypeScript, Tailwind CSS, Framer Motion, responsive layouts, web performance",
-          "Design Delivery: Figma-to-code, dark/premium direction, editorial layouts, component systems",
+          "Design Delivery: Figma, Figma-to-code, dark/premium direction, editorial layouts, component systems",
           "Product Building: SaaS dashboards, ERP-style admin UIs, Telegram Mini Apps, trading tools, role-based interfaces",
-          "AI & Automation: internal LLM assistants, Python, REST APIs, AI-assisted development",
-          "Cloud & Deploy: Vercel, Railway, Render",
+          "AI & Automation: internal LLM assistants, Python, Bash, REST APIs, AI-assisted development",
+          "Cloud & Deploy: Vercel, Railway, Render, Nginx reverse proxy (supporting)",
           "Databases: PostgreSQL, Prisma, basic SQL",
-          "Operating Systems: Windows 10/11, Linux (Ubuntu/Debian), macOS",
-          "Collaboration: Microsoft 365, Slack, Jira, Redmine, documentation, stakeholder communication",
-          "Containers (supporting): Docker, Kubernetes basics",
-          "Security awareness: Multi-Factor Authentication (MFA), access hygiene, Fortinet & IBM fundamentals",
-          "Networking (supporting): TCP/IP, Domain Name System (DNS), Virtual Private Network (VPN) basics"
+          "Collaboration: Microsoft 365, Slack, Jira, Redmine, documentation, stakeholder communication"
         ],
         "competencies": [
-          "Visual and interaction design sense",
-          "User-centered thinking and clear communication",
+          "Strong visual and interaction craft",
+          "User-centered flows with clear hierarchy",
           "End-to-end ownership from concept to launch",
-          "Fast adaptability and iteration",
-          "Cross-functional collaboration",
-          "Documentation and design consistency"
+          "Fast iteration with measurable design decisions",
+          "Clear communication with clients and non-technical stakeholders"
         ],
         "experience": [
-          {
-            "title": "System Administrator — BeArt Studio s.r.o. (iGaming) | 2026 – Present",
-            "bullets": [
-              "Handle ~100 L1/L2 support tickets per month with fast Service Level Indicator (SLI) response times.",
-              "Designed/built a self-hosted ERP-style operations dashboard with custom internal features.",
-              "Built an internal LLM assistant to speed up workplace workflows and knowledge access.",
-              "Developed an iGaming games parser to support operational data workflows.",
-              "Delivered a cybersecurity workshop for employees; support Multi-Factor Authentication (MFA) and access hygiene UX.",
-              "Run onboarding sessions and write clear IT/product documentation for non-technical users.",
-              "Automate recurring tasks with Python/Docker where it reduces manual toil.",
-              "Support Windows/Linux operations while keeping internal tools usable and consistent.",
-              "Contribute to security monitoring awareness and incident-prevention practices."
-            ]
-          },
           {
             "title": "Freelance — Design & Development | Remote | 2024–2026",
             "bullets": [
               "UI/UX redesigns, wireframes, and Framer Motion prototypes for client businesses (Next.js, responsive, dark/premium).",
               "Helix Trade: deep upgrade of trading-bot logic and UI/UX for clearer decision-making in the interface.",
-              "Subscription marketplace: payments + role-based dashboards (buyer/seller/admin), Vercel + Railway.",
-              "Production Telegram booking Mini App: scheduling UX, reminders, Google Calendar, PostgreSQL."
+              "PlantUp subscription marketplace: payments + role-based dashboards (buyer/seller/admin), Vercel + Railway.",
+              "Production Telegram Booking Mini App: scheduling UX, reminders, Google Calendar, PostgreSQL.",
+              "Hospitality concepts: W Steak (editorial + v1), Smokehouse Prague, Smoky Place — typography-led conversion layouts."
             ]
           },
           {
-            "title": "System Administrator — Mining Trade House s.r.o. | 2022 – 2024",
+            "title": "Product / Internal Tools — iGaming Company | 2026 – Present",
             "bullets": [
-              "Managed company workstations and user environments end-to-end.",
+              "Designed and built a self-hosted ERP-style operations dashboard with custom internal features.",
+              "Shipped UX for an internal LLM assistant on an NVIDIA GPU server trained on corporate information.",
+              "Created onboarding materials and clear product/IT documentation for non-technical users.",
+              "Improved internal tool usability while supporting day-to-day Windows/Linux operations.",
+              "Handle operational support (~100 tickets/month within SLA: first response ≤ 1 hour, ~85% same-day resolution) — strong empathy for real user friction."
+            ]
+          },
+          {
+            "title": "System Administrator / IT Support — NDA | 2022 – 2024",
+            "bullets": [
               "Supported users with software, OS, and account issues — foundation in usability and support communication.",
-              "Network and connectivity troubleshooting for reliable day-to-day operations.",
-              "Hardware diagnostics and rapid incident resolution in production environments.",
+              "Managed company workstations and user environments end-to-end.",
               "Installed and maintained operational platforms used by non-technical staff."
             ]
           }
         ],
         "projects": [
           {
-            "title": "UI/UX & Product (selected)",
-            "detail": "Helix Trade UI/UX + logic upgrade; hospitality concepts (W Steak, Smokehouse Prague, Smoky Place); Framer Motion prototypes"
+            "title": "Helix Trade",
+            "detail": "Trading bot SaaS UI/UX + logic upgrade"
           },
           {
-            "title": "Internal / ops products",
-            "detail": "Self-hosted ERP dashboard; internal LLM assistant; iGaming games parser; Booking Mini App; PlantUp; DevOps Learn"
+            "title": "Hospitality concepts",
+            "detail": "W Steak / Smokehouse Prague / Smoky Place — UI concepts"
           },
           {
-            "title": "Portfolio: https://zirvey.github.io/Zirvey/",
-            "detail": "Learning / security"
+            "title": "Booking Telegram Mini App",
+            "detail": "Full-stack product UX"
+          },
+          {
+            "title": "PlantUp",
+            "detail": "Subscription marketplace (role-based dashboards)"
+          },
+          {
+            "title": "DevOps-Learn",
+            "detail": "Learning platform UI (React/TypeScript)"
+          },
+          {
+            "title": "Internal ops products",
+            "detail": "ERP dashboard & corporate LLM assistant — ops product design"
           }
         ],
         "education": {
-          "school": "Czech University of Life Sciences Prague (INFO) | 2020–2023 | Completed coursework, degree not awarded",
+          "school": "Czech University of Life Sciences Prague (INFO) | 2020–2023",
           "details": "Relevant coursework: Operating Systems, Computer Networks, Information Security, UNIX, Databases, Python/Java, AI, Big Data, System Integration, IT Project Management. Certifications: Fortinet & IBM cybersecurity fundamentals."
         },
         "languages": [
-          "English — B1",
+          "English — B2",
           "Czech — B2",
           "Russian — Native"
         ]
       },
       "ru": {
         "position": "UI/UX Designer / Product Designer",
-        "summary": "UI/UX-дизайнер и product-разработчик из Праги. Делаю conversion-driven продукты — landing pages, SaaS dashboards, booking apps, trading tools — от wireframes и interactive prototypes до полированного UI (Next.js, Framer Motion, design systems). Также собираю внутренние product-tools (self-hosted ERP dashboard, LLM-ассистенты).",
+        "summary": "UI/UX-дизайнер и product-разработчик из Праги. Делаю conversion-driven продукты — лендинги, SaaS-дашборды, booking-приложения, trading tools — от wireframes и интерактивных прототипов до полированного UI на Next.js, TypeScript, Tailwind CSS и Framer Motion. Также веду внутренние product-tools (ERP-дашборды, LLM-ассистенты на GPU-инфраструктуре) end-to-end.",
         "achievements": [
-          "Сильно прокачал trading bot (Helix Trade) в логике и UI/UX: более понятные flows и быстрее работа оператора.",
-          "Спроектировал и запустил редизайны лендингов и interactive prototypes (Next.js, Framer Motion, responsive, dark/premium).",
-          "Собрал fully self-hosted ERP-style dashboard с кастомными фичами для внутренних операций.",
-          "Спроектировал role-based UI (buyer/seller/admin) для маркетплейса подписок и production Telegram booking Mini App.",
-          "Создал hospitality UI-концепты с сильной типографикой, визуальной идентичностью и conversion-фокусом.",
-          "Оцифровал корпоративный архив, сократив время поиска/админ-работы более чем на 50%.",
-          "Провёл workshop по кибербезопасности и онбординг-презентации для нетехнических сотрудников.",
-          "Прошёл foundational курсы кибербезопасности Fortinet и IBM — полезно для secure product/access UX."
+          "Helix Trade — сильный апгрейд UI/UX и логики trading-bot SaaS: понятнее flows оператора и плотнее information design.",
+          "Спроектировал и запустил hospitality-редизайны (W Steak, Smokehouse Prague, Smoky Place) в dark/premium направлении.",
+          "Собрал UX production Telegram Booking Mini App: расписание, напоминания, Google Calendar, ролевые сценарии.",
+          "Спроектировал UI маркетплейса подписок PlantUp (buyer/seller/admin) с платежами и дашбордами.",
+          "Сделал интерактивные Framer Motion прототипы и responsive Next.js-фронтенды от концепта до запуска.",
+          "Собрал self-hosted ERP-дашборд для внутренних операций — полный product ownership.",
+          "Спроектировал UX внутреннего LLM-ассистента (сервер NVIDIA GPU, корпоративные знания) для ежедневных рабочих процессов.",
+          "Запустил UI платформы DevOps-Learn (React/TypeScript) как структурированный продуктовый опыт."
         ],
         "skills": [
-          "UI/UX & Product Design: wireframes, interactive prototypes, design systems, user flows, conversion layouts",
-          "Motion & Frontend: Next.js, TypeScript, Tailwind CSS, Framer Motion, responsive layouts, web performance",
-          "Design Delivery: Figma-to-code, dark/premium, editorial layouts, component systems",
-          "Product Building: SaaS dashboards, ERP-style admin UI, Telegram Mini Apps, trading tools, role-based interfaces",
-          "AI & Automation: internal LLM assistants, Python, REST APIs, AI-assisted development",
-          "Cloud & Deploy: Vercel, Railway, Render",
-          "Databases: PostgreSQL, Prisma, basic SQL",
-          "ОС: Windows 10/11, Linux (Ubuntu/Debian), macOS",
-          "Collaboration: Microsoft 365, Slack, Jira, Redmine, documentation",
-          "Containers (supporting): Docker, Kubernetes basics",
-          "Security awareness: Multi-Factor Authentication (MFA), Fortinet & IBM fundamentals",
-          "Networking (supporting): TCP/IP, Domain Name System (DNS), Virtual Private Network (VPN)"
+          "UI/UX и Product Design: wireframes, интерактивные прототипы, design systems, user flows, conversion-лейауты",
+          "Motion и Frontend: Next.js, TypeScript, Tailwind CSS, Framer Motion, responsive, web performance",
+          "Design Delivery: Figma, Figma-to-code, dark/premium, editorial layouts, component systems",
+          "Product Building: SaaS-дашборды, ERP admin UI, Telegram Mini Apps, trading tools, ролевые интерфейсы",
+          "AI и автоматизация: внутренние LLM-ассистенты, Python, Bash, REST API",
+          "Облако и деплой: Vercel, Railway, Render, Nginx reverse proxy (supporting)",
+          "Базы данных: PostgreSQL, Prisma, базовый SQL",
+          "Коллаборация: Microsoft 365, Slack, Jira, Redmine, документация, работа со стейкхолдерами"
         ],
         "competencies": [
-          "Чувство визуала и interaction design",
-          "User-centered мышление и ясная коммуникация",
+          "Сильное чувство визуала и interaction design",
+          "User-centered сценарии с ясной иерархией",
           "Полный цикл: от концепта до запуска",
-          "Быстрая адаптация и итерации",
-          "Кросс-функциональная работа",
-          "Документирование и дизайн-консистентность"
+          "Быстрые итерации с осознанными дизайн-решениями",
+          "Понятная коммуникация с клиентами и нетехническими стейкхолдерами"
         ],
         "experience": [
-          {
-            "title": "Системный администратор — BeArt Studio s.r.o. (iGaming) | 2026 – настоящее время",
-            "bullets": [
-              "Закрываю ~100 L1/L2 тикетов в месяц при быстром Service Level Indicator (SLI).",
-              "Спроектировал/собрал self-hosted ERP-style dashboard с кастомными внутренними фичами.",
-              "Собрал internal LLM-ассистента для ускорения рабочих процессов и доступа к знаниям.",
-              "Разработал iGaming games parser для operational data workflows.",
-              "Провёл cybersecurity workshop; поддерживаю Multi-Factor Authentication (MFA) и access hygiene UX.",
-              "Онбординг и понятная IT/product-документация для нетехнических пользователей.",
-              "Автоматизация на Python/Docker там, где это снижает рутину.",
-              "Поддержка Windows/Linux-операций с фокусом на usable внутренних инструментах.",
-              "Участие в security awareness и практиках предотвращения инцидентов."
-            ]
-          },
           {
             "title": "Фриланс — Design & Development | Удалённо | 2024–2026",
             "bullets": [
               "UI/UX-редизайны, wireframes и Framer Motion prototypes (Next.js, responsive, dark/premium).",
               "Helix Trade: глубокий апгрейд логики и UI/UX trading bot.",
-              "Маркетплейс подписок: платежи + role-based dashboards, Vercel + Railway.",
-              "Production Telegram booking Mini App: scheduling UX, reminders, Google Calendar, PostgreSQL."
+              "PlantUp: платежи + ролевые дашборды (buyer/seller/admin), Vercel + Railway.",
+              "Production Telegram Booking Mini App: scheduling UX, reminders, Google Calendar, PostgreSQL.",
+              "Hospitality-концепты: W Steak, Smokehouse Prague, Smoky Place — типографика и conversion-лейауты."
             ]
           },
           {
-            "title": "Системный администратор — Mining Trade House s.r.o. | 2022 – 2024",
+            "title": "Product / внутренние инструменты — iGaming Company | 2026 – настоящее время",
             "bullets": [
+              "Спроектировал и собрал self-hosted ERP-дашборд с кастомными внутренними функциями.",
+              "Сделал UX внутреннего LLM-ассистента на сервере с NVIDIA GPU, обученного на корпоративной информации.",
+              "Онбординг-материалы и понятная product/IT-документация для нетехнических пользователей.",
+              "Улучшал usability внутренних инструментов параллельно с поддержкой Windows/Linux-операций.",
+              "Операционная поддержка (~100 тикетов/месяц в рамках SLA: первый ответ ≤ 1 часа, ~85% закрытий в тот же рабочий день) — сильная эмпатия к реальному user friction."
+            ]
+          },
+          {
+            "title": "Системный администратор / IT Support — NDA | 2022 – 2024",
+            "bullets": [
+              "Поддержка пользователей по ПО, ОС и учёткам — база в usability и коммуникации.",
               "Полный цикл управления рабочими станциями и пользовательскими средами.",
-              "Поддержка пользователей по ПО, ОС и учётным записям — база в usability и коммуникации.",
-              "Устранение сетевых и connectivity-проблем.",
-              "Диагностика железа и быстрое решение инцидентов в production.",
               "Установка и сопровождение платформ для нетехнических сотрудников."
             ]
           }
         ],
         "projects": [
           {
-            "title": "UI/UX & Product (избранное)",
-            "detail": "Helix Trade UI/UX + logic; hospitality-концепты; Framer Motion prototypes"
+            "title": "Helix Trade",
+            "detail": "UI/UX + логика trading-bot SaaS"
           },
           {
-            "title": "Internal / ops products",
-            "detail": "Self-hosted ERP dashboard; internal LLM; iGaming games parser; Booking Mini App; PlantUp; DevOps Learn"
+            "title": "Hospitality-концепты",
+            "detail": "W Steak / Smokehouse Prague / Smoky Place"
           },
           {
-            "title": "Портфолио: https://zirvey.github.io/Zirvey/",
-            "detail": "Обучение / security"
+            "title": "Booking Telegram Mini App",
+            "detail": "Full-stack product UX"
+          },
+          {
+            "title": "PlantUp",
+            "detail": "Маркетплейс подписок (ролевые дашборды)"
+          },
+          {
+            "title": "DevOps-Learn",
+            "detail": "UI обучающей платформы (React/TypeScript)"
+          },
+          {
+            "title": "Internal ops products",
+            "detail": "ERP-дашборд и корпоративный LLM-ассистент"
           }
         ],
         "education": {
-          "school": "Чешский университет естественных наук в Праге (INFO) | 2020–2023 | Курс пройден, диплом не получен",
-          "details": "Релевантные дисциплины: ОС, сети, Information Security, UNIX, БД, Python/Java, AI, Big Data, системная интеграция, IT Project Management. Сертификации: Fortinet & IBM cybersecurity fundamentals."
+          "school": "Чешский университет естественных наук в Праге (INFO) | 2020–2023",
+          "details": "Релевантные дисциплины: ОС, сети, информационная безопасность, UNIX, БД, Python/Java, AI, Big Data, системная интеграция, IT Project Management. Сертификации: Fortinet & IBM cybersecurity fundamentals."
         },
         "languages": [
-          "Английский — B1",
+          "Английский — B2",
           "Чешский — B2",
           "Русский — родной"
         ]
@@ -238,66 +242,70 @@
     },
     "devops": {
       "en": {
-        "position": "DevOps Engineer / Automation & Infrastructure",
-        "summary": "DevOps / infrastructure engineer with hands-on Docker and Kubernetes experience, Python automation, monitoring, backups, and CI/CD workflows. Comfortable with Linux/Windows servers, Active Directory, Terraform, Ansible, GitHub Actions, and self-hosted internal platforms (ERP dashboard, LLM services, parsers).",
+        "position": "Junior DevOps / Automation & Infrastructure",
+        "summary": "SysAdmin transitioning into DevOps with hands-on Docker, Python/Bash/PowerShell automation, monitoring (Prometheus, Grafana, Zabbix), backups, Nginx reverse proxy, and CI/CD. Operate Linux/Windows servers, Active Directory, OPNsense firewall, VLANs, Omada Wi-Fi, and self-hosted platforms — including a dedicated server running an internal LLM trained on company knowledge. Building foundational IaC skills (Terraform, Ansible, Kubernetes basics) with GitHub Actions.",
         "achievements": [
-          "Handle ~100 operational/support tickets per month while keeping Service Level Indicator (SLI) response times fast.",
-          "Built and operate a fully self-hosted ERP-style dashboard platform with custom internal features.",
-          "Deployed an internal LLM assistant for workplace workflows (self-hosted / company environment).",
-          "Built reusable Infrastructure as Code (IaC) workflows with Terraform, Ansible, Docker, Kubernetes, and CI/CD.",
+          "Handle ~100 operational tickets/month within SLA (first response ≤ 1 hour, ~85% same-day resolution).",
+          "Deployed and operate an on-premise NVIDIA GPU server hosting an internal LLM trained on corporate information.",
+          "Built infrastructure process automation (Python/Bash/PowerShell + Docker) that speeds up employee day-to-day work.",
+          "Built and operate a self-hosted ERP-style dashboard with custom internal features.",
+          "Created reusable IaC starter workflows (Terraform, Ansible, Docker, Kubernetes basics) and GitHub Actions CI/CD.",
           "Integrated a secondary backup stack (Borg/Borgmatic), improving redundancy and recovery reliability.",
-          "Developed an iGaming games parser and Python monitoring/alerting jobs for proactive issue detection.",
-          "Installed and configured a new on-premise server end-to-end (hardware selection, procurement, deployment).",
-          "Digitized company archive/tooling, cutting administrative overhead by over 50%; completed Fortinet & IBM cybersecurity fundamentals."
+          "Configured monitoring with Prometheus, Grafana, and Zabbix for proactive issue detection.",
+          "Hardened network edge with OPNsense firewall, VLANs, VPN (OpenVPN/WireGuard), Nginx reverse proxy.",
+          "Operate Omada controller, TP-Link access points and switches for office LAN/Wi-Fi reliability.",
+          "Digitized company archive/tooling (−50% admin overhead); completed Fortinet & IBM cybersecurity fundamentals."
         ],
         "skills": [
-          "Containers & Virtualization: Docker, Kubernetes, VMware, Proxmox, VirtualBox",
-          "Infrastructure as Code (IaC) & CI/CD: Terraform, Ansible, GitHub Actions",
-          "Cloud & Deploy: Vercel, Railway, Render, self-hosted services",
-          "Automation & Scripting: Python, REST APIs, cron jobs, alerting, AI-assisted development, LLM tooling",
-          "Monitoring & Backup: Zabbix, Omada, Borg/Borgmatic, rsync, retention policies, recovery testing, Service Level Indicator (SLI) awareness",
-          "Operating Systems: Linux (Ubuntu/Debian), Windows Server (Active Directory / AD, Group Policy Objects / GPO), Windows 10/11, macOS",
-          "Networking & Security: LAN/WAN, TCP/IP, Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), Virtual Private Network (VPN: OpenVPN, WireGuard), Multi-Factor Authentication (MFA)",
+          "Containers & Virtualization: Docker, Kubernetes (basics), VMware, Proxmox, VirtualBox",
+          "IaC & CI/CD: Terraform (basics), Ansible (basics), GitHub Actions",
+          "Cloud & Deploy: Vercel, Railway, Render, self-hosted services, Nginx, reverse proxy",
+          "Automation & Scripting: Python, Bash, PowerShell, REST APIs, cron, alerting, LLM tooling",
+          "Monitoring & Backup: Prometheus, Grafana, Zabbix, Omada, Borg/Borgmatic, rsync, recovery testing",
+          "Operating Systems: Linux (Ubuntu/Debian), Windows Server (AD, GPO), Windows 10/11, macOS",
+          "Networking & Security: LAN/WAN, TCP/IP, DNS, DHCP, VLAN, Firewall (OPNsense), VPN (OpenVPN, WireGuard), MFA",
+          "Network hardware: Omada controller, TP-Link access points, TP-Link switches",
+          "AI / GPU infrastructure: NVIDIA GPU server, self-hosted LLM trained on corporate knowledge",
           "Databases: PostgreSQL, Prisma, SQL dumps, basic SQL",
           "Web stack (apps I deploy): Next.js, TypeScript, Tailwind CSS",
-          "Tools: Microsoft 365 Admin Center, Jira, ServiceDesk, Slack, Redmine, AnyDesk, Remote Desktop Protocol (RDP)",
-          "IT Governance: password policies, access reviews, compliance documentation, Fortinet & IBM cybersecurity fundamentals",
-          "Hardware: server hardware selection, diagnostics, maintenance"
+          "Tools: Microsoft 365 Admin Center, Jira, ServiceDesk, Slack, Redmine, AnyDesk, RDP",
+          "IT Governance: password policies, access reviews, compliance documentation, Fortinet & IBM fundamentals",
+          "Hardware: server procurement, NVIDIA GPU hosts, diagnostics, maintenance"
         ],
         "competencies": [
-          "Automation-first mindset",
-          "Analytical and critical thinking",
-          "Independence and discipline",
-          "Fast adaptability under ticket load (~100/month)",
-          "Documentation and process standardization",
-          "Incident prevention and reliability focus"
+          "Automation-first approach to reduce manual toil across infrastructure",
+          "Reliability mindset — monitoring, backups, recovery testing",
+          "Clear runbooks and process documentation",
+          "Prioritization under ticket load (~100/month)",
+          "Cross-team communication with developers and business users"
         ],
         "experience": [
           {
-            "title": "System Administrator — BeArt Studio s.r.o. (iGaming) | 2026 – Present",
+            "title": "System Administrator — iGaming Company | 2026 – Present",
             "bullets": [
               "Administer Windows/Linux servers with focus on availability, security, and repeatable operations.",
-              "Resolve ~100 tickets/month with fast Service Level Indicator (SLI); reduce toil via Python/Docker automation.",
-              "Built/operate self-hosted ERP-style dashboard and internal LLM assistant for company workflows.",
-              "Developed iGaming games parser and monitoring/alerting pipelines.",
-              "Configure Virtual Private Network (VPN) access and network security (OpenVPN/WireGuard).",
-              "Delivered cybersecurity workshop; enforce Multi-Factor Authentication (MFA) and access reviews.",
-              "Write IT policies/runbooks (devices, access control, security standards).",
-              "Manage software lifecycle: install, configure, license administration.",
-              "Contribute to security monitoring and incident-prevention practices."
+              "Resolve ~100 tickets/month within SLA (first response ≤ 1 hour, ~85% same-day resolution).",
+              "Run on-premise NVIDIA GPU server and internal LLM trained on corporate information for workplace workflows.",
+              "Automate internal infrastructure processes (Python/Bash/PowerShell, Docker) to accelerate employee work.",
+              "Built/operate self-hosted ERP-style dashboard; iGaming games parser and alerting pipelines.",
+              "Operate monitoring stack: Prometheus, Grafana, Zabbix.",
+              "Network security and access: OPNsense firewall, VLANs, Nginx reverse proxy, VPN (OpenVPN/WireGuard).",
+              "Manage Omada Wi-Fi, TP-Link access points and switches for stable office connectivity.",
+              "Delivered cybersecurity workshop; enforce MFA and access reviews; write IT policies/runbooks.",
+              "Manage software lifecycle: install, configure, license administration."
             ]
           },
           {
             "title": "Freelance — IT Automation & Infrastructure | Remote | 2024–2026",
             "bullets": [
-              "Reusable IaC: Terraform, Ansible, Docker, Kubernetes-ready workflows, GitHub Actions CI/CD.",
-              "Production Telegram booking platform: PostgreSQL, automated health monitoring, calendar integrations.",
-              "Subscription marketplace deployed to Vercel + Railway with role-based dashboards and payments.",
-              "Python automation: lead-scoring, parsers, scheduled jobs, Telegram notification workflows."
+              "Reusable IaC starters: Terraform, Ansible, Docker, Kubernetes basics, GitHub Actions CI/CD.",
+              "Production Telegram booking platform: PostgreSQL, health monitoring, calendar integrations.",
+              "Subscription marketplace on Vercel + Railway with role-based dashboards and payments.",
+              "Python automation: lead-scoring, parsers, scheduled jobs, Telegram notifications."
             ]
           },
           {
-            "title": "System Administrator — Mining Trade House s.r.o. | 2022 – 2024",
+            "title": "System Administrator / IT Support — NDA | 2022 – 2024",
             "bullets": [
               "Full lifecycle workstation and platform management in a production trading environment.",
               "Network administration: LAN/Wi-Fi monitoring, routers, connectivity troubleshooting.",
@@ -309,92 +317,104 @@
         ],
         "projects": [
           {
-            "title": "Self-hosted platforms",
-            "detail": "ERP-style dashboard; internal LLM assistant; iGaming games parser; Borg/Borgmatic backup automation"
+            "title": "Self-hosted platforms & AI",
+            "detail": "ERP-style dashboard; NVIDIA GPU server + corporate LLM; iGaming games parser; Borg/Borgmatic backups"
           },
           {
-            "title": "IaC, CI/CD & Deployments",
-            "detail": "Terraform/Ansible/Docker/Kubernetes workflows; GitHub Actions; Vercel, Railway, Render"
+            "title": "Networking & edge",
+            "detail": "OPNsense firewall, VLANs, Nginx reverse proxy, VPN; Omada + TP-Link APs/switches"
           },
           {
-            "title": "Automation & Monitoring",
-            "detail": "Python parsers/monitoring, REST API + Telegram alerts, health checks for production apps"
+            "title": "IaC, CI/CD & deployments",
+            "detail": "Infrastructure-boilerplate (Terraform/Ansible basics); GitHub Actions; Vercel, Railway, Render"
+          },
+          {
+            "title": "Automation & monitoring",
+            "detail": "Python/Bash/PowerShell automation; Prometheus, Grafana, Zabbix; REST API + Telegram alerts"
+          },
+          {
+            "title": "Learning",
+            "detail": "DevOps-Learn platform; active study of CI/CD, containers, and infrastructure fundamentals"
           }
         ],
         "education": {
-          "school": "Czech University of Life Sciences Prague (INFO) | 2020–2023 | Completed coursework, degree not awarded",
+          "school": "Czech University of Life Sciences Prague (INFO) | 2020–2023",
           "details": "Relevant coursework: Operating Systems, Computer Networks, Information Security, UNIX, Databases, Python/Java, AI, System Integration. Certifications: Fortinet & IBM cybersecurity fundamentals."
         },
         "languages": [
-          "English — B1",
+          "English — B2",
           "Czech — B2",
           "Russian — Native"
         ]
       },
       "ru": {
-        "position": "DevOps Engineer / Автоматизация и инфраструктура",
-        "summary": "DevOps / инженер инфраструктуры с практикой Docker и Kubernetes, Python-автоматизации, мониторинга, бэкапов и CI/CD. Работаю с Linux/Windows, Active Directory, Terraform, Ansible, GitHub Actions и self-hosted платформами (ERP dashboard, LLM-сервисы, parsers).",
+        "position": "Junior DevOps / Автоматизация и инфраструктура",
+        "summary": "Системный администратор, переходящий в DevOps: опыт работы с Docker, автоматизацией на Python/Bash/PowerShell, мониторингом (Prometheus, Grafana, Zabbix), резервным копированием, Nginx reverse proxy и CI/CD. Администрирую Linux и Windows, Active Directory, firewall OPNsense, VLAN, Omada Wi‑Fi и self‑hosted инфраструктуру — включая сервер с NVIDIA GPU и внутреннюю LLM‑модель на корпоративных данных. Развиваю навыки IaC (Terraform, Ansible, основы Kubernetes) и автоматизацию через GitHub Actions.",
         "achievements": [
-          "Закрываю ~100 operational/support тикетов в месяц при быстром Service Level Indicator (SLI).",
-          "Собрал и сопровождаю fully self-hosted ERP-style dashboard с кастомными внутренними фичами.",
-          "Развернул internal LLM-ассистента для рабочих процессов компании.",
-          "Собрал переиспользуемые Infrastructure as Code (IaC) workflows: Terraform, Ansible, Docker, Kubernetes, CI/CD.",
-          "Интегрировал secondary backup stack (Borg/Borgmatic), повысив redundancy и recovery reliability.",
-          "Сделал iGaming games parser и Python monitoring/alerting jobs для проактивного выявления проблем.",
-          "Установил и настроил новый on-premise сервер end-to-end (подбор железа, закупка, развёртывание).",
-          "Оцифровал архив/tooling (−50% админ-нагрузки); прошёл Fortinet & IBM cybersecurity fundamentals."
+          "Закрываю ~100 операционных тикетов в месяц в рамках SLA (первый ответ ≤ 1 часа, ~85% закрытий в тот же рабочий день).",
+          "Развернул и сопровождаю on-premise сервер с NVIDIA GPU и внутренний LLM, обученный на корпоративной информации.",
+          "Автоматизировал процессы внутри инфраструктуры (Python/Bash/PowerShell + Docker) для ускорения работы сотрудников.",
+          "Собрал и сопровождаю self-hosted ERP-дашборд с кастомными внутренними функциями.",
+          "Собрал стартовые IaC-воркфлоу (Terraform, Ansible, Docker, Kubernetes — базовый уровень) и CI/CD на GitHub Actions.",
+          "Интегрировал дополнительный стек бэкапов (Borg/Borgmatic), повысив избыточность и надёжность восстановления.",
+          "Настроил мониторинг на Prometheus, Grafana и Zabbix для проактивного выявления проблем.",
+          "Усилил сетевой периметр: firewall OPNsense, VLAN, VPN (OpenVPN/WireGuard), Nginx reverse proxy.",
+          "Сопровождаю Omada controller, точки доступа и свитчи TP-Link для стабильного LAN/Wi-Fi в офисе.",
+          "Оцифровал корпоративный архив (−50% админ-нагрузки); прошёл Fortinet & IBM cybersecurity fundamentals."
         ],
         "skills": [
-          "Containers & Virtualization: Docker, Kubernetes, VMware, Proxmox, VirtualBox",
-          "Infrastructure as Code (IaC) & CI/CD: Terraform, Ansible, GitHub Actions",
-          "Cloud & Deploy: Vercel, Railway, Render, self-hosted services",
-          "Automation: Python, REST APIs, cron, alerting, AI-assisted development, LLM tooling",
-          "Monitoring & Backup: Zabbix, Omada, Borg/Borgmatic, rsync, retention, recovery testing, SLI awareness",
-          "ОС: Linux (Ubuntu/Debian), Windows Server (Active Directory / AD, Group Policy Objects / GPO), Windows 10/11, macOS",
-          "Networking & Security: LAN/WAN, TCP/IP, DNS, DHCP, VPN (OpenVPN, WireGuard), Multi-Factor Authentication (MFA)",
-          "Databases: PostgreSQL, Prisma, SQL dumps, basic SQL",
-          "Web stack: Next.js, TypeScript, Tailwind CSS",
-          "Tools: Microsoft 365 Admin Center, Jira, ServiceDesk, Slack, Redmine, AnyDesk, RDP",
-          "IT Governance: password policies, access reviews, compliance docs, Fortinet & IBM fundamentals",
-          "Hardware: подбор серверного железа, диагностика, обслуживание"
+          "Контейнеры и виртуализация: Docker, Kubernetes (базовый уровень), VMware, Proxmox, VirtualBox",
+          "IaC и CI/CD: Terraform (базовый), Ansible (базовый), GitHub Actions",
+          "Облако и деплой: Vercel, Railway, Render, self-hosted сервисы, Nginx, reverse proxy",
+          "Автоматизация: Python, Bash, PowerShell, REST API, cron, алерты, LLM-инструменты",
+          "Мониторинг и бэкапы: Prometheus, Grafana, Zabbix, Omada, Borg/Borgmatic, rsync, тесты восстановления",
+          "ОС: Linux (Ubuntu/Debian), Windows Server (AD, GPO), Windows 10/11, macOS",
+          "Сети и безопасность: LAN/WAN, TCP/IP, DNS, DHCP, VLAN, Firewall (OPNsense), VPN (OpenVPN, WireGuard), MFA",
+          "Сетевое оборудование: Omada controller, точки доступа TP-Link, свитчи TP-Link",
+          "AI / GPU-инфраструктура: сервер с NVIDIA GPU, self-hosted LLM на корпоративных знаниях",
+          "Базы данных: PostgreSQL, Prisma, SQL dumps, базовый SQL",
+          "Web-стек (приложения, которые деплою): Next.js, TypeScript, Tailwind CSS",
+          "Инструменты: Microsoft 365 Admin Center, Jira, ServiceDesk, Slack, Redmine, AnyDesk, RDP",
+          "IT-governance: политики паролей, ревизии доступа, compliance-документация, Fortinet & IBM fundamentals",
+          "Оборудование: закупка серверов, хосты с NVIDIA GPU, диагностика, обслуживание"
         ],
         "competencies": [
-          "Automation-first подход",
-          "Аналитическое и критическое мышление",
-          "Самостоятельность и дисциплина",
-          "Быстрая адаптация под ~100 тикетов/месяц",
-          "Документирование и стандартизация процессов",
-          "Фокус на надёжности и предотвращении инцидентов"
+          "Automation-first подход — меньше ручной рутины в инфраструктуре",
+          "Фокус на надёжности: мониторинг, бэкапы, проверка восстановления",
+          "Понятные runbooks и стандартизация процессов",
+          "Приоритизация при нагрузке ~100 тикетов/месяц",
+          "Коммуникация с разработчиками и бизнес-пользователями"
         ],
         "experience": [
           {
-            "title": "Системный администратор — BeArt Studio s.r.o. (iGaming) | 2026 – настоящее время",
+            "title": "Системный администратор — iGaming Company | 2026 – настоящее время",
             "bullets": [
-              "Администрирование Windows/Linux с фокусом на availability, security и повторяемые операции.",
-              "~100 тикетов/месяц при быстром SLI; снижение toil через Python/Docker automation.",
-              "Self-hosted ERP-style dashboard и internal LLM-ассистент для company workflows.",
-              "iGaming games parser и monitoring/alerting pipelines.",
-              "VPN-доступ и сетевая безопасность (OpenVPN/WireGuard).",
-              "Cybersecurity workshop; Multi-Factor Authentication (MFA) и access reviews.",
-              "IT-политики/runbooks (устройства, доступ, стандарты безопасности).",
-              "Жизненный цикл ПО: установка, настройка, лицензии.",
-              "Security monitoring и практики предотвращения инцидентов."
+              "Администрирование Windows/Linux с фокусом на доступность, безопасность и повторяемые операции.",
+              "~100 тикетов/месяц в рамках SLA (первый ответ ≤ 1 часа, ~85% закрытий в тот же рабочий день).",
+              "On-premise сервер с NVIDIA GPU и внутренний LLM на корпоративной информации.",
+              "Автоматизация внутренних инфраструктурных процессов (Python/Bash/PowerShell, Docker) для ускорения работы сотрудников.",
+              "Self-hosted ERP-дашборд; парсер игр iGaming и пайплайны алертов.",
+              "Стек мониторинга: Prometheus, Grafana, Zabbix.",
+              "Сетевая безопасность и доступ: firewall OPNsense, VLAN, Nginx reverse proxy, VPN (OpenVPN/WireGuard).",
+              "Omada Wi-Fi, точки доступа и свитчи TP-Link — стабильное офисное подключение.",
+              "Workshop по кибербезопасности; MFA и ревизии доступа; IT-политики и runbooks.",
+              "Жизненный цикл ПО: установка, настройка, лицензии."
             ]
           },
           {
             "title": "Фриланс — IT-автоматизация и инфраструктура | Удалённо | 2024–2026",
             "bullets": [
-              "IaC: Terraform, Ansible, Docker, Kubernetes-ready workflows, GitHub Actions CI/CD.",
-              "Production Telegram booking: PostgreSQL, health-мониторинг, calendar integrations.",
-              "Маркетплейс подписок на Vercel + Railway: role-based dashboards и платежи.",
-              "Python-автоматизация: lead-scoring, parsers, scheduled jobs, Telegram alerts."
+              "Стартовые IaC-воркфлоу: Terraform, Ansible, Docker, Kubernetes (базовый уровень), GitHub Actions CI/CD.",
+              "Production Telegram booking: PostgreSQL, health-мониторинг, интеграции календаря.",
+              "Маркетплейс подписок на Vercel + Railway: ролевые дашборды и платежи.",
+              "Python-автоматизация: lead-scoring, парсеры, scheduled jobs, Telegram-уведомления."
             ]
           },
           {
-            "title": "Системный администратор — Mining Trade House s.r.o. | 2022 – 2024",
+            "title": "Системный администратор / IT Support — NDA | 2022 – 2024",
             "bullets": [
               "Полный цикл управления станциями и платформами в production trading-среде.",
-              "Администрирование сети: LAN/Wi-Fi мониторинг, роутеры, troubleshooting.",
+              "Администрирование сети: LAN/Wi-Fi мониторинг, роутеры, устранение неполадок.",
               "Диагностика железа, апгрейды, быстрое решение инцидентов.",
               "Поддержка пользователей по ОС, ПО и учётным записям.",
               "Установка и обслуживание операционных платформ и спецПО."
@@ -403,24 +423,32 @@
         ],
         "projects": [
           {
-            "title": "Self-hosted platforms",
-            "detail": "ERP-style dashboard; internal LLM; iGaming games parser; Borg/Borgmatic backup automation"
+            "title": "Self-hosted платформы и AI",
+            "detail": "ERP-дашборд; сервер NVIDIA GPU + корпоративный LLM; парсер iGaming; бэкапы Borg/Borgmatic"
           },
           {
-            "title": "IaC, CI/CD & Deployments",
-            "detail": "Terraform/Ansible/Docker/Kubernetes workflows; GitHub Actions; Vercel, Railway, Render"
+            "title": "Сеть и периметр",
+            "detail": "Firewall OPNsense, VLAN, Nginx reverse proxy, VPN; Omada + точки доступа/свитчи TP-Link"
+          },
+          {
+            "title": "IaC, CI/CD и деплой",
+            "detail": "Infrastructure-boilerplate (Terraform/Ansible, базовый уровень); GitHub Actions; Vercel, Railway, Render"
           },
           {
             "title": "Автоматизация и мониторинг",
-            "detail": "Python parsers/monitoring, REST API + Telegram alerts, health checks"
+            "detail": "Автоматизация на Python/Bash/PowerShell; Prometheus, Grafana, Zabbix; REST API + Telegram-алерты"
+          },
+          {
+            "title": "Обучение",
+            "detail": "Платформа DevOps-Learn; активное изучение CI/CD, контейнеров и основ инфраструктуры"
           }
         ],
         "education": {
-          "school": "Чешский университет естественных наук в Праге (INFO) | 2020–2023 | Курс пройден, диплом не получен",
-          "details": "Релевантные дисциплины: ОС, сети, Information Security, UNIX, БД, Python/Java, AI, системная интеграция. Сертификации: Fortinet & IBM cybersecurity fundamentals."
+          "school": "Чешский университет естественных наук в Праге (INFO) | 2020–2023",
+          "details": "Релевантные дисциплины: ОС, сети, информационная безопасность, UNIX, БД, Python/Java, AI, системная интеграция. Сертификации: Fortinet & IBM cybersecurity fundamentals."
         },
         "languages": [
-          "Английский — B1",
+          "Английский — B2",
           "Чешский — B2",
           "Русский — родной"
         ]
@@ -429,52 +457,58 @@
     "sysadmin": {
       "en": {
         "position": "System Administrator",
-        "summary": "System Administrator with hands-on Windows/Linux/macOS, Active Directory, server administration, network security, automation, and Docker-based deployments. Resolve ~100 tickets/month with fast SLI, build internal platforms (self-hosted ERP dashboard, LLM assistant, parsers), and run cybersecurity enablement.",
+        "summary": "System Administrator with hands-on Windows/Linux/macOS, Active Directory, server administration, network security (OPNsense firewall, VLANs, VPN, Nginx reverse proxy), Omada/TP-Link office networking, automation (Python, Bash, PowerShell), and Docker-based deployments. Resolve ~100 tickets/month within SLA; operate dedicated server with an internal LLM trained on corporate information; monitor with Prometheus, Grafana, and Zabbix.",
         "achievements": [
-          "Resolve ~100 L1/L2 tickets per month with fast Service Level Indicator (SLI) response times.",
+          "Resolve ~100 L1/L2 tickets/month within SLA (first response ≤ 1 hour, ~85% same-day resolution).",
+          "Installed and operate an on-premise server with NVIDIA GPUs running an internal LLM trained on company knowledge.",
+          "Automated infrastructure processes (Python/Bash/PowerShell) to accelerate employee workflows.",
           "Built a fully self-hosted ERP-style dashboard with custom features for internal operations.",
-          "Deployed an internal LLM assistant to accelerate workplace workflows and knowledge access.",
-          "Developed an iGaming games parser and Python SIM-card monitoring for proactive issue detection.",
-          "Integrated a secondary backup system, improving data redundancy and recovery reliability.",
-          "Installed and configured a new on-premise server (hardware selection, procurement, full deployment).",
-          "Digitized/reorganized the company archive (devices, employees, SIM cards, access cards), cutting search time by over 50%.",
-          "Delivered a cybersecurity workshop; completed Fortinet & IBM cybersecurity fundamentals; improved Multi-Factor Authentication (MFA) onboarding."
+          "Configured monitoring with Prometheus, Grafana, and Zabbix for proactive detection.",
+          "Hardened network with OPNsense firewall, VLANs, VPN (OpenVPN/WireGuard), and Nginx reverse proxy.",
+          "Operate Omada controller, TP-Link access points and switches for reliable office LAN/Wi-Fi.",
+          "Integrated a secondary backup system (Borg/Borgmatic), improving data redundancy and recovery reliability.",
+          "Digitized/reorganized the company archive, cutting search time by over 50%.",
+          "Delivered a cybersecurity workshop; completed Fortinet & IBM cybersecurity fundamentals; improved MFA onboarding."
         ],
         "skills": [
-          "Operating Systems: Windows 10/11, Windows Server (Active Directory / AD, Group Policy Objects / GPO), Linux (Ubuntu/Debian), macOS",
-          "Virtualization & Containers: Docker, Kubernetes basics, VMware, Proxmox, VirtualBox",
-          "Networking: LAN/WAN, TCP/IP, Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), Virtual Private Network (VPN), Wi‑Fi, Omada, Zabbix",
-          "Tools: Microsoft 365 Admin Center, Slack, Redmine, AnyDesk, Remote Desktop Protocol (RDP), Jira, ServiceDesk, OpenVPN, WireGuard",
-          "IT Governance & Security: Multi-Factor Authentication (MFA), password policies, access reviews, security training, endpoint security, compliance documentation",
-          "Automation & Scripting: Python, REST APIs, automation scripts, AI-assisted development, internal LLM tooling",
-          "Hardware: diagnostics, server hardware maintenance and procurement",
+          "Operating Systems: Windows 10/11, Windows Server (AD, GPO), Linux (Ubuntu/Debian), macOS",
+          "Virtualization & Containers: Docker, Kubernetes (basics), VMware, Proxmox, VirtualBox",
+          "Networking: LAN/WAN, TCP/IP, DNS, DHCP, VLAN, VPN, Wi-Fi, Nginx reverse proxy",
+          "Firewall & security edge: OPNsense, OpenVPN, WireGuard, MFA",
+          "Network hardware: Omada controller, TP-Link access points, TP-Link switches",
+          "Monitoring: Prometheus, Grafana, Zabbix, Omada",
+          "Tools: Microsoft 365 Admin Center, Slack, Redmine, AnyDesk, RDP, Jira, ServiceDesk",
+          "IT Governance & Security: password policies, access reviews, security training, endpoint security, compliance documentation",
+          "Automation & Scripting: Python, Bash, PowerShell, REST APIs, internal LLM tooling",
+          "AI / GPU infrastructure: NVIDIA GPU server, self-hosted LLM trained on corporate knowledge",
+          "Hardware: diagnostics, server procurement and maintenance, NVIDIA GPU hosts",
           "Backup & Recovery: Borg/Borgmatic, rsync, cron, retention policies, recovery testing",
           "Cloud & Deploy: Vercel, Railway, Render, self-hosted platforms",
           "Databases: PostgreSQL, Prisma, basic SQL",
-          "Infrastructure as Code (IaC) & CI/CD: Terraform, Ansible, GitHub Actions",
+          "IaC & CI/CD: Terraform (basics), Ansible (basics), GitHub Actions",
           "Certifications: Fortinet & IBM cybersecurity fundamentals"
         ],
         "competencies": [
-          "Analytical and critical thinking",
-          "Effective communication",
-          "Independence and discipline",
-          "Fast adaptability under ~100 tickets/month",
-          "Team collaboration",
-          "Documentation and process standardization"
+          "Analytical troubleshooting under production pressure",
+          "Security-aware operations (firewall, MFA, access reviews, policy hygiene)",
+          "Documentation and process standardization",
+          "Prioritization across incidents, projects, and ticket queue",
+          "Reliable handovers and clear communication with stakeholders"
         ],
         "experience": [
           {
-            "title": "System Administrator — BeArt Studio s.r.o. (iGaming) | 2026 – Present",
+            "title": "System Administrator / IT Support — iGaming Company | 2026 – Present",
             "bullets": [
               "Administration and maintenance of Windows/Linux servers ensuring high availability and security.",
-              "L1/L2 support (~100 tickets/month) with fast Service Level Indicator (SLI); hardware/software troubleshooting.",
-              "Built/operate self-hosted ERP-style dashboard and internal LLM assistant.",
-              "Developed iGaming games parser; automate monitoring/deployment tasks with Python and Docker.",
-              "Configuration and management of Virtual Private Network (VPN) access and network security.",
-              "Delivered cybersecurity workshop; Multi-Factor Authentication (MFA) onboarding and access reviews.",
+              "L1/L2 support (~100 tickets/month) within SLA (first response ≤ 1 hour, ~85% same-day resolution); hardware/software troubleshooting.",
+              "Operate dedicated server and internal LLM trained on corporate information; automate processes that speed up staff work.",
+              "Built/operate self-hosted ERP-style dashboard; iGaming info parser; Python/Docker automation.",
+              "Monitoring with Prometheus, Grafana, and Zabbix.",
+              "Network security: OPNsense firewall, VLANs, Nginx reverse proxy, VPN access.",
+              "Office network: Omada Wi-Fi, TP-Link access points and switches.",
+              "Delivered cybersecurity workshop; MFA onboarding and access reviews.",
               "Software lifecycle management: installation, configuration, license administration.",
-              "Develop internal IT policies and documentation (device management, access control, security standards).",
-              "Participate in cybersecurity tasks: access management, incident prevention, security monitoring."
+              "Develop internal IT policies and documentation (device management, access control, security standards)."
             ]
           },
           {
@@ -482,12 +516,11 @@
             "bullets": [
               "End-to-end subscription marketplace with payments and role-based dashboards (Vercel + Railway).",
               "Production Telegram booking platform: scheduling, reminders, Google Calendar, PostgreSQL, health monitoring.",
-              "Python automation and reusable IaC template with Terraform, Ansible, Docker, Kubernetes-ready CI/CD.",
-              "UI/UX landing-page work and trading-bot product upgrades — see portfolio."
+              "Python automation and reusable IaC starters with Terraform, Ansible, Docker, Kubernetes basics, CI/CD."
             ]
           },
           {
-            "title": "System Administrator — Mining Trade House s.r.o. | 2022 – 2024",
+            "title": "System Administrator / IT Support — NDA | 2022 – 2024",
             "bullets": [
               "Full lifecycle management of company workstations: configuration, optimization, maintenance.",
               "Network administration including LAN/Wi-Fi monitoring, router configuration, and connectivity troubleshooting.",
@@ -499,12 +532,16 @@
         ],
         "projects": [
           {
-            "title": "Infrastructure & Internal Platforms",
-            "detail": "Self-hosted ERP dashboard; internal LLM; iGaming games parser; Borg/Borgmatic backups"
+            "title": "Infrastructure & internal platforms",
+            "detail": "Self-hosted ERP dashboard; NVIDIA GPU + corporate LLM; iGaming games parser; Borg/Borgmatic backups"
           },
           {
-            "title": "Automation & Integrations",
-            "detail": "SIM monitoring, website parsers, REST API + Telegram notifications, scheduled alerting"
+            "title": "Networking & security edge",
+            "detail": "OPNsense firewall, VLANs, Nginx reverse proxy, VPN; Omada + TP-Link APs/switches"
+          },
+          {
+            "title": "Automation & monitoring",
+            "detail": "Python/Bash/PowerShell automation; Prometheus, Grafana, Zabbix; SIM monitoring; Telegram alerts"
           },
           {
             "title": "Enablement",
@@ -512,79 +549,84 @@
           }
         ],
         "education": {
-          "school": "Czech University of Life Sciences Prague (INFO) | 2020–2023 | Completed coursework, degree not awarded",
+          "school": "Czech University of Life Sciences Prague (INFO) | 2020–2023",
           "details": "Relevant coursework: Operating Systems, Computer Networks, Information Security, UNIX, Databases, Python/Java, AI, System Integration. Certifications: Fortinet & IBM cybersecurity fundamentals."
         },
         "languages": [
-          "English — B1",
+          "English — B2",
           "Czech — B2",
           "Russian — Native"
         ]
       },
       "ru": {
         "position": "Системный администратор",
-        "summary": "Системный администратор с практикой Windows/Linux/macOS, Active Directory, серверов, сетевой безопасности, автоматизации и Docker. Закрываю ~100 тикетов/месяц при быстром SLI, собираю внутренние платформы (self-hosted ERP dashboard, LLM-ассистент, parsers) и веду cybersecurity enablement.",
+        "summary": "Системный администратор с практикой Windows/Linux/macOS, Active Directory, серверов, сетевой безопасности (firewall OPNsense, VLAN, VPN, Nginx reverse proxy), офисной сети Omada/TP-Link, автоматизации (Python, Bash, PowerShell) и Docker. Закрываю ~100 тикетов/месяц в рамках SLA; сопровождаю сервер с внутренним LLM на корпоративных знаниях; мониторинг на Prometheus, Grafana и Zabbix.",
         "achievements": [
-          "Закрываю ~100 L1/L2 тикетов в месяц при быстром Service Level Indicator (SLI).",
-          "Собрал fully self-hosted ERP-style dashboard с кастомными фичами для внутренних операций.",
-          "Развернул internal LLM-ассистента для ускорения рабочих процессов.",
-          "Сделал iGaming games parser и Python-мониторинг SIM-карт для проактивного выявления проблем.",
-          "Интегрировал secondary backup system, повысив redundancy и надёжность восстановления.",
-          "Установил и настроил новый on-premise сервер (подбор железа, закупка, полное развёртывание).",
+          "Закрываю ~100 L1/L2 тикетов в месяц в рамках SLA (первый ответ ≤ 1 часа, ~85% закрытий в тот же рабочий день).",
+          "Установил и сопровождаю on-premise сервер с NVIDIA GPU и внутренний LLM на корпоративных знаниях.",
+          "Автоматизировал инфраструктурные процессы (Python/Bash/PowerShell) для ускорения работы сотрудников.",
+          "Собрал fully self-hosted ERP-дашборд с кастомными функциями для внутренних операций.",
+          "Настроил мониторинг на Prometheus, Grafana и Zabbix.",
+          "Усилил сеть: firewall OPNsense, VLAN, VPN (OpenVPN/WireGuard), Nginx reverse proxy.",
+          "Сопровождаю Omada controller, точки доступа и свитчи TP-Link для стабильного LAN/Wi-Fi.",
+          "Интегрировал дополнительную систему бэкапов (Borg/Borgmatic), повысив избыточность и надёжность восстановления.",
           "Оцифровал/реорганизовал корпоративный архив, сократив время поиска более чем на 50%.",
-          "Провёл cybersecurity workshop; Fortinet & IBM fundamentals; улучшил Multi-Factor Authentication (MFA) onboarding."
+          "Провёл workshop по кибербезопасности; Fortinet & IBM fundamentals; улучшил онбординг MFA."
         ],
         "skills": [
-          "ОС: Windows 10/11, Windows Server (Active Directory / AD, Group Policy Objects / GPO), Linux (Ubuntu/Debian), macOS",
-          "Виртуализация и контейнеры: Docker, Kubernetes basics, VMware, Proxmox, VirtualBox",
-          "Сети: LAN/WAN, TCP/IP, DNS, DHCP, VPN, Wi‑Fi, Omada, Zabbix",
-          "Инструменты: Microsoft 365 Admin Center, Slack, Redmine, AnyDesk, RDP, Jira, ServiceDesk, OpenVPN, WireGuard",
-          "IT Governance & Security: Multi-Factor Authentication (MFA), политики паролей, ревизии доступа, endpoint security, compliance",
-          "Автоматизация: Python, REST APIs, AI-assisted development, internal LLM tooling",
-          "Оборудование: диагностика, обслуживание и закупка серверного железа",
-          "Backup & Recovery: Borg/Borgmatic, rsync, cron, retention, recovery testing",
-          "Cloud & Deploy: Vercel, Railway, Render, self-hosted platforms",
-          "Databases: PostgreSQL, Prisma, basic SQL",
-          "Infrastructure as Code (IaC) & CI/CD: Terraform, Ansible, GitHub Actions",
+          "ОС: Windows 10/11, Windows Server (AD, GPO), Linux (Ubuntu/Debian), macOS",
+          "Виртуализация и контейнеры: Docker, Kubernetes (базовый уровень), VMware, Proxmox, VirtualBox",
+          "Сети: LAN/WAN, TCP/IP, DNS, DHCP, VLAN, VPN, Wi-Fi, Nginx reverse proxy",
+          "Firewall и периметр: OPNsense, OpenVPN, WireGuard, MFA",
+          "Сетевое оборудование: Omada controller, точки доступа TP-Link, свитчи TP-Link",
+          "Мониторинг: Prometheus, Grafana, Zabbix, Omada",
+          "Инструменты: Microsoft 365 Admin Center, Slack, Redmine, AnyDesk, RDP, Jira, ServiceDesk",
+          "IT-governance и безопасность: политики паролей, ревизии доступа, endpoint security, compliance",
+          "Автоматизация: Python, Bash, PowerShell, REST API, внутренние LLM-инструменты",
+          "AI / GPU-инфраструктура: сервер с NVIDIA GPU, self-hosted LLM на корпоративных знаниях",
+          "Оборудование: диагностика, закупка и обслуживание серверов, хосты с NVIDIA GPU",
+          "Бэкапы и восстановление: Borg/Borgmatic, rsync, cron, политики хранения, тесты восстановления",
+          "Облако и деплой: Vercel, Railway, Render, self-hosted платформы",
+          "Базы данных: PostgreSQL, Prisma, базовый SQL",
+          "IaC и CI/CD: Terraform (базовый), Ansible (базовый), GitHub Actions",
           "Сертификации: Fortinet & IBM cybersecurity fundamentals"
         ],
         "competencies": [
-          "Аналитическое и критическое мышление",
-          "Эффективная коммуникация",
-          "Самостоятельность и дисциплина",
-          "Быстрая адаптация под ~100 тикетов/месяц",
-          "Командная работа",
-          "Документирование и стандартизация процессов"
+          "Аналитическая диагностика в production-среде",
+          "Security-aware подход (firewall, MFA, ревизии доступа, политики)",
+          "Документирование и стандартизация процессов",
+          "Приоритизация между инцидентами, проектами и очередью тикетов",
+          "Надёжные handover и ясная коммуникация со стейкхолдерами"
         ],
         "experience": [
           {
-            "title": "Системный администратор — BeArt Studio s.r.o. (iGaming) | 2026 – настоящее время",
+            "title": "Системный администратор / IT Support — iGaming Company | 2026 – настоящее время",
             "bullets": [
-              "Администрирование Windows/Linux-серверов: availability и security.",
-              "L1/L2 поддержка (~100 тикетов/месяц) при быстром SLI; hardware/software troubleshooting.",
-              "Self-hosted ERP-style dashboard и internal LLM-ассистент.",
-              "iGaming games parser; автоматизация мониторинга/деплоя на Python и Docker.",
-              "Настройка и управление VPN-доступом и сетевой безопасностью.",
-              "Cybersecurity workshop; MFA onboarding и access reviews.",
+              "Администрирование Windows/Linux-серверов: доступность и безопасность.",
+              "L1/L2 поддержка (~100 тикетов/месяц) в рамках SLA (первый ответ ≤ 1 часа, ~85% закрытий в тот же рабочий день); диагностика железа/ПО.",
+              "Сервер с NVIDIA GPU и внутренний LLM на корпоративной информации; автоматизация процессов для ускорения работы сотрудников.",
+              "Self-hosted ERP-дашборд; парсер игр iGaming; автоматизация на Python/Docker.",
+              "Мониторинг: Prometheus, Grafana, Zabbix.",
+              "Сетевая безопасность: firewall OPNsense, VLAN, Nginx reverse proxy, VPN.",
+              "Офисная сеть: Omada Wi-Fi, точки доступа и свитчи TP-Link.",
+              "Workshop по кибербезопасности; онбординг MFA и ревизии доступа.",
               "Жизненный цикл ПО: установка, настройка, лицензии.",
-              "Внутренние IT-политики и документация (устройства, доступ, стандарты безопасности).",
-              "Кибербезопасность: access management, incident prevention, security monitoring."
+              "Внутренние IT-политики и документация (устройства, доступ, стандарты безопасности)."
             ]
           },
           {
             "title": "Фриланс — IT-автоматизация и инфраструктура | Удалённо | 2024–2026",
             "bullets": [
-              "Маркетплейс подписок end-to-end с платежами и role-based dashboards (Vercel + Railway).",
-              "Production Telegram booking: scheduling, reminders, Google Calendar, PostgreSQL, health monitoring.",
-              "Python-автоматизация и IaC: Terraform, Ansible, Docker, Kubernetes-ready CI/CD.",
-              "UI/UX-лендинги и апгрейд trading bot — см. портфолио."
+              "Маркетплейс подписок end-to-end с платежами и ролевыми дашбордами (Vercel + Railway).",
+              "Production Telegram booking: scheduling, reminders, Google Calendar, PostgreSQL, health-мониторинг.",
+              "Python-автоматизация и стартовые IaC: Terraform, Ansible, Docker, Kubernetes (базовый уровень), CI/CD."
             ]
           },
           {
-            "title": "Системный администратор — Mining Trade House s.r.o. | 2022 – 2024",
+            "title": "Системный администратор / IT Support — NDA | 2022 – 2024",
             "bullets": [
               "Полный цикл управления рабочими станциями компании.",
-              "Администрирование сети: LAN/Wi‑Fi мониторинг, роутеры, troubleshooting.",
+              "Администрирование сети: LAN/Wi-Fi мониторинг, роутеры, устранение неполадок.",
               "Диагностика железа и быстрое решение инцидентов в production.",
               "Поддержка пользователей по ПО, ОС и учётным записям.",
               "Установка и обслуживание операционных платформ и спецПО."
@@ -594,23 +636,27 @@
         "projects": [
           {
             "title": "Инфраструктура и внутренние платформы",
-            "detail": "Self-hosted ERP dashboard; internal LLM; iGaming games parser; Borg/Borgmatic backups"
+            "detail": "Self-hosted ERP-дашборд; NVIDIA GPU + корпоративный LLM; парсер iGaming; бэкапы Borg/Borgmatic"
           },
           {
-            "title": "Автоматизация и интеграции",
-            "detail": "SIM monitoring, parsers, REST API + Telegram notifications, scheduled alerting"
+            "title": "Сеть и периметр",
+            "detail": "Firewall OPNsense, VLAN, Nginx reverse proxy, VPN; Omada + точки доступа/свитчи TP-Link"
           },
           {
-            "title": "Enablement",
-            "detail": "Cybersecurity workshop; оцифровка архива (−50%); IT-политики и онбординг"
+            "title": "Автоматизация и мониторинг",
+            "detail": "Автоматизация на Python/Bash/PowerShell; Prometheus, Grafana, Zabbix; мониторинг SIM; Telegram-алерты"
+          },
+          {
+            "title": "Обучение и процессы",
+            "detail": "Workshop по кибербезопасности; оцифровка архива (−50%); IT-политики и онбординг"
           }
         ],
         "education": {
-          "school": "Чешский университет естественных наук в Праге (INFO) | 2020–2023 | Курс пройден, диплом не получен",
-          "details": "Релевантные дисциплины: ОС, сети, Information Security, UNIX, БД, Python/Java, AI, системная интеграция. Сертификации: Fortinet & IBM cybersecurity fundamentals."
+          "school": "Чешский университет естественных наук в Праге (INFO) | 2020–2023",
+          "details": "Релевантные дисциплины: ОС, сети, информационная безопасность, UNIX, БД, Python/Java, AI, системная интеграция. Сертификации: Fortinet & IBM cybersecurity fundamentals."
         },
         "languages": [
-          "Английский — B1",
+          "Английский — B2",
           "Чешский — B2",
           "Русский — родной"
         ]
@@ -619,52 +665,51 @@
     "helpdesk": {
       "en": {
         "position": "IT Helpdesk / IT Support Specialist (L1/L2)",
-        "summary": "IT Support Specialist with strong L1/L2 experience: ~100 tickets/month, fast Service Level Indicator (SLI), Windows/Linux/macOS troubleshooting, Microsoft 365, remote support (AnyDesk/RDP), onboarding, and clear user communication. Also build internal tools that reduce ticket load (monitoring, self-hosted dashboards, LLM assistant) and deliver security workshops.",
+        "summary": "IT Support Specialist with solid L1/L2 experience: handling ~100 tickets per month within SLA, troubleshooting Windows/Linux/macOS, Microsoft 365, remote support (AnyDesk/RDP), onboarding, and clear user communication. I support office networks (Omada, TP‑Link APs/switches, VPN, OPNsense) and build internal tools that reduce ticket volume — including monitoring systems and an internal LLM running on a dedicated server.",
         "achievements": [
-          "Resolve ~100 L1/L2 tickets per month (hardware/software, accounts, access) with fast Service Level Indicator (SLI).",
-          "Delivered a company cybersecurity workshop and ongoing Multi-Factor Authentication (MFA) / security-awareness enablement.",
+          "Resolve ~100 L1/L2 tickets/month (hardware/software, accounts, access) within SLA (first response ≤ 1 hour, ~85% same-day resolution).",
+          "Delivered a company cybersecurity workshop and ongoing MFA / security-awareness training.",
           "Digitized and reorganized the company archive, cutting search time by over 50%.",
           "Built Python SIM-card monitoring so connectivity/balance issues are caught before users open tickets.",
-          "Built internal tools that reduce repetitive support work: self-hosted ERP-style dashboard and internal LLM assistant.",
+          "Supported infrastructure automation and an internal LLM (NVIDIA GPU server, corporate knowledge) that speeds up employee work.",
           "Created onboarding sessions, user guides, and IT policies that improve first-contact resolution.",
-          "Supported Virtual Private Network (VPN) setup and network connectivity troubleshooting for office and remote users.",
+          "Supported VPN, VLAN-aware office network, Omada Wi-Fi, TP-Link access points/switches, and firewall connectivity issues.",
           "Completed Fortinet & IBM cybersecurity fundamentals; contribute to access reviews and password-policy enforcement."
         ],
         "skills": [
-          "User Support: L1/L2 troubleshooting, onboarding, account management, remote assistance (AnyDesk, Remote Desktop Protocol / RDP)",
-          "Operating Systems: Windows 10/11, macOS, Linux (Ubuntu/Debian), Windows Server basics (Active Directory / AD, Group Policy Objects / GPO)",
+          "User Support: L1/L2 troubleshooting, onboarding, account management, remote assistance (AnyDesk, RDP)",
+          "Operating Systems: Windows 10/11, macOS, Linux (Ubuntu/Debian), Windows Server basics (AD, GPO)",
           "Collaboration & Ticketing: Jira, ServiceDesk, Redmine, Slack, Microsoft 365 Admin Center",
-          "Networking (support level): LAN/WAN, TCP/IP, Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), Virtual Private Network (VPN), Wi‑Fi, OpenVPN, WireGuard",
-          "Security Hygiene: Multi-Factor Authentication (MFA), password policy enforcement, access reviews, security training, Fortinet & IBM fundamentals",
+          "Networking (support level): LAN/WAN, TCP/IP, DNS, DHCP, VLAN, VPN, Wi-Fi, OpenVPN, WireGuard",
+          "Firewall & edge (support): OPNsense, Nginx reverse proxy basics",
+          "Network hardware: Omada controller, TP-Link access points, TP-Link switches",
+          "Security Hygiene: MFA, password policy enforcement, access reviews, security training, Fortinet & IBM fundamentals",
           "Hardware: diagnostics, workstation setup, peripherals, basic server hardware maintenance",
           "Tools & Software Lifecycle: installation, configuration, license administration",
-          "Automation (supporting): Python scripts, monitoring, REST APIs, internal LLM assistant",
+          "Automation (supporting): Python, Bash, PowerShell, monitoring, REST APIs, internal LLM assistant",
+          "Monitoring (supporting): Prometheus, Grafana, Zabbix, Omada",
           "Virtualization (supporting): Docker, VirtualBox, VMware, Proxmox",
-          "Monitoring (supporting): Zabbix, Omada",
-          "Cloud (supporting): Vercel, Railway, Render",
-          "Service quality: ~100 tickets/month, fast Service Level Indicator (SLI)"
+          "Service quality: ~100 tickets/month within SLA (first response ≤ 1 hour, ~85% same-day resolution)"
         ],
         "competencies": [
-          "Clear, patient user communication",
-          "Analytical troubleshooting",
-          "Independence and discipline",
-          "Fast adaptability under ticket load",
-          "Team collaboration",
-          "Documentation and knowledge sharing"
+          "Clear, patient communication with non-technical users",
+          "Structured troubleshooting from symptom to root cause",
+          "Ownership of tickets until confirmed resolution",
+          "Calm prioritization under high ticket volume",
+          "Knowledge sharing through guides and onboarding materials"
         ],
         "experience": [
           {
-            "title": "System Administrator / IT Support — BeArt Studio s.r.o. (iGaming) | 2026 – Present",
+            "title": "System Administrator / IT Support — iGaming Company | 2026 – Present",
             "bullets": [
-              "L1/L2 support: ~100 tickets/month with fast Service Level Indicator (SLI); diagnose hardware/software, account, and access issues.",
+              "L1/L2 support: ~100 tickets/month within SLA (first response ≤ 1 hour, ~85% same-day resolution); diagnose hardware/software, account, and access issues.",
               "Conduct onboarding sessions: environment setup, tool walkthroughs, and security briefings.",
               "Delivered cybersecurity workshop and user training on systems/best practices.",
-              "Built tools that prevent tickets: SIM monitoring, internal LLM assistant, self-hosted ERP-style dashboard.",
-              "Developed iGaming games parser supporting operations data needs.",
-              "Configure and support Virtual Private Network (VPN) access and day-to-day connectivity issues.",
-              "Maintain Windows/Linux servers as part of broader IT operations; Active Directory / AD awareness.",
+              "Help users adopt internal tools: ERP dashboard, LLM assistant on NVIDIA GPU server, automation that cuts repetitive work.",
+              "Troubleshoot office connectivity: Omada Wi-Fi, TP-Link APs/switches, VPN, firewall/VLAN-related access issues.",
+              "Maintain Windows/Linux endpoints as part of broader IT operations; AD awareness.",
               "Develop user-facing IT documentation and policies (devices, access, security standards).",
-              "Support cybersecurity hygiene: Multi-Factor Authentication (MFA), access management, incident-prevention awareness."
+              "Support cybersecurity hygiene: MFA, access management, incident-prevention awareness."
             ]
           },
           {
@@ -672,12 +717,11 @@
             "bullets": [
               "Built monitoring/alerting that reduce manual follow-ups and repeat tickets.",
               "Delivered client-facing products with clear dashboards and supportable production setups.",
-              "Practiced structured documentation and handover for systems I deployed.",
-              "UI/UX and product work for clients — useful for clear user-facing IT materials; portfolio linked above."
+              "Practiced structured documentation and handover for systems I deployed."
             ]
           },
           {
-            "title": "System Administrator / Desktop Support — Mining Trade House s.r.o. | 2022 – 2024",
+            "title": "System Administrator / IT Support — NDA | 2022 – 2024",
             "bullets": [
               "Full lifecycle management of company workstations: configuration, optimization, maintenance.",
               "User support for software, operating systems, and account management.",
@@ -689,93 +733,91 @@
         ],
         "projects": [
           {
-            "title": "Support Enablement & Documentation",
+            "title": "Support enablement & documentation",
             "detail": "Cybersecurity workshop; onboarding materials; IT policies; archive digitization (−50% search time)"
           },
           {
-            "title": "Proactive Monitoring & Internal Tools",
-            "detail": "SIM monitoring/alerting; internal LLM assistant; self-hosted ERP dashboard; iGaming games parser"
+            "title": "Proactive monitoring & internal tools",
+            "detail": "SIM monitoring/alerting; internal LLM on NVIDIA GPU server; self-hosted ERP dashboard; process automation for staff"
           },
           {
-            "title": "Service metrics",
-            "detail": "~100 tickets/month handled with fast Service Level Indicator (SLI)"
+            "title": "Network support scope",
+            "detail": "Omada + TP-Link APs/switches; VPN; OPNsense firewall awareness; VLAN connectivity troubleshooting"
           }
         ],
         "education": {
-          "school": "Czech University of Life Sciences Prague (INFO) | 2020–2023 | Completed coursework, degree not awarded",
-          "details": "Relevant coursework: Operating Systems, Computer Networks, Information Security, UNIX, Databases, Python/Java. Certifications: Fortinet & IBM cybersecurity fundamentals."
+          "school": "Czech University of Life Sciences Prague (INFO) | 2020–2023",
+          "details": "Relevant coursework: Operating Systems, Computer Networks, Information Security, UNIX, Databases, Python/Java, AI, System Integration. Certifications: Fortinet & IBM cybersecurity fundamentals."
         },
         "languages": [
-          "English — B1",
+          "English — B2",
           "Czech — B2",
           "Russian — Native"
         ]
       },
       "ru": {
         "position": "IT Helpdesk / IT Support Specialist (L1/L2)",
-        "summary": "IT Support Specialist с сильным L1/L2 опытом: ~100 тикетов/месяц, быстрый Service Level Indicator (SLI), troubleshooting Windows/Linux/macOS, Microsoft 365, remote support (AnyDesk/RDP), онбординг и ясная коммуникация. Также собираю internal tools, снижающие поток тикетов (monitoring, self-hosted dashboards, LLM), и провожу security workshops.",
+        "summary": "IT Support Specialist с сильным L1/L2 опытом: ~100 тикетов/месяц в рамках SLA, диагностика Windows/Linux/macOS, Microsoft 365, удалённая поддержка (AnyDesk/RDP), онбординг и ясная коммуникация. Поддерживаю офисную сеть (Omada, точки доступа/свитчи TP-Link, VPN, OPNsense) и внутренние инструменты, снижающие поток тикетов — включая мониторинг и LLM.",
         "achievements": [
-          "Закрываю ~100 L1/L2 тикетов в месяц (hardware/software, accounts, access) при быстром Service Level Indicator (SLI).",
-          "Провёл cybersecurity workshop и enablement по Multi-Factor Authentication (MFA) / security awareness.",
+          "Закрываю ~100 L1/L2 тикетов в месяц (железо/ПО, учётки, доступ) в рамках SLA (первый ответ ≤ 1 часа, ~85% закрытий в тот же рабочий день).",
+          "Провёл workshop по кибербезопасности и обучение по MFA / security awareness.",
           "Оцифровал корпоративный архив, сократив время поиска более чем на 50%.",
-          "Сделал Python SIM monitoring — проблемы ловятся до открытия тикетов пользователями.",
-          "Собрал internal tools против рутины: self-hosted ERP-style dashboard и internal LLM-ассистент.",
-          "Создал онбординг, user guides и IT-политики, повышающие first-contact resolution.",
-          "Поддерживал Virtual Private Network (VPN) setup и troubleshooting сети для office/remote users.",
-          "Прошёл Fortinet & IBM cybersecurity fundamentals; участвую в access reviews и password policies."
+          "Сделал Python-мониторинг SIM-карт — проблемы ловятся до открытия тикетов пользователями.",
+          "Участвую в инфраструктурной автоматизации и внутреннем LLM (сервер NVIDIA GPU, корпоративные знания), ускоряющих работу сотрудников.",
+          "Создал онбординг, пользовательские гайды и IT-политики, повышающие first-contact resolution.",
+          "Поддерживал VPN, офисную сеть с VLAN, Omada Wi-Fi, точки доступа/свитчи TP-Link и вопросы, связанные с firewall.",
+          "Прошёл Fortinet & IBM cybersecurity fundamentals; участвую в ревизиях доступа и политиках паролей."
         ],
         "skills": [
-          "User Support: L1/L2 troubleshooting, onboarding, account management, remote assistance (AnyDesk, RDP)",
-          "ОС: Windows 10/11, macOS, Linux (Ubuntu/Debian), Windows Server basics (Active Directory / AD, Group Policy Objects / GPO)",
-          "Ticketing & collaboration: Jira, ServiceDesk, Redmine, Slack, Microsoft 365 Admin Center",
-          "Networking: LAN/WAN, TCP/IP, DNS, DHCP, VPN, Wi‑Fi, OpenVPN, WireGuard",
-          "Security Hygiene: Multi-Factor Authentication (MFA), password policies, access reviews, Fortinet & IBM fundamentals",
-          "Hardware: diagnostics, workstation setup, peripherals, basic server maintenance",
-          "Software lifecycle: installation, configuration, license administration",
-          "Automation (supporting): Python scripts, monitoring, REST APIs, internal LLM assistant",
-          "Virtualization (supporting): Docker, VirtualBox, VMware, Proxmox",
-          "Monitoring (supporting): Zabbix, Omada",
-          "Cloud (supporting): Vercel, Railway, Render",
-          "Service quality: ~100 tickets/month, fast Service Level Indicator (SLI)"
+          "Поддержка пользователей: L1/L2 диагностика, онбординг (onboarding), учётные записи, удалённая помощь (AnyDesk, RDP)",
+          "ОС: Windows 10/11, macOS, Linux (Ubuntu/Debian), основы Windows Server (AD, GPO)",
+          "Тикетинг и коллаборация: Jira, ServiceDesk, Redmine, Slack, Microsoft 365 Admin Center",
+          "Сети (уровень поддержки): LAN/WAN, TCP/IP, DNS, DHCP, VLAN, VPN, Wi-Fi, OpenVPN, WireGuard",
+          "Firewall и периметр (support): OPNsense, основы Nginx reverse proxy",
+          "Сетевое оборудование: Omada controller, точки доступа TP-Link, свитчи TP-Link",
+          "Кибергигиена: MFA, политики паролей, ревизии доступа, обучение, Fortinet & IBM fundamentals",
+          "Оборудование: диагностика, сборка рабочих станций, периферия, базовое обслуживание серверов",
+          "Жизненный цикл ПО: установка, настройка, лицензии",
+          "Автоматизация (supporting): Python, Bash, PowerShell, мониторинг, REST API, внутренний LLM-ассистент",
+          "Мониторинг (supporting): Prometheus, Grafana, Zabbix, Omada",
+          "Виртуализация (supporting): Docker, VirtualBox, VMware, Proxmox",
+          "Качество сервиса: ~100 тикетов/месяц в рамках SLA (первый ответ ≤ 1 часа, ~85% закрытий в тот же рабочий день)"
         ],
         "competencies": [
-          "Понятная и спокойная коммуникация с пользователями",
-          "Аналитическая диагностика",
-          "Самостоятельность и дисциплина",
-          "Быстрая адаптация под поток тикетов",
-          "Командная работа",
-          "Документирование и обмен знаниями"
+          "Понятная и спокойная коммуникация с нетехническими пользователями",
+          "Структурированная диагностика от симптома к причине",
+          "Доведение тикета до подтверждённого решения",
+          "Спокойная приоритизация при высоком потоке обращений",
+          "Обмен знаниями через гайды и материалы онбординга"
         ],
         "experience": [
           {
-            "title": "Системный администратор / IT Support — BeArt Studio s.r.o. (iGaming) | 2026 – настоящее время",
+            "title": "Системный администратор / IT Support — iGaming Company | 2026 – настоящее время",
             "bullets": [
-              "L1/L2: ~100 тикетов/месяц при быстром SLI; hardware/software, accounts, access.",
+              "L1/L2: ~100 тикетов/месяц в рамках SLA (первый ответ ≤ 1 часа, ~85% закрытий в тот же рабочий день); железо/ПО, учётки, доступ.",
               "Онбординг: настройка среды, обзор инструментов, security briefings.",
-              "Cybersecurity workshop и обучение пользователей best practices.",
-              "Tools против тикетов: SIM monitoring, internal LLM, self-hosted ERP-style dashboard.",
-              "iGaming games parser для operational data needs.",
-              "Поддержка VPN-доступа и повседневных connectivity issues.",
-              "Обслуживание Windows/Linux; Active Directory / AD awareness.",
-              "Пользовательская IT-документация и политики (устройства, доступ, security standards).",
-              "Кибергигиена: MFA, access management, incident-prevention awareness."
+              "Workshop по кибербезопасности и обучение пользователей best practices.",
+              "Помогаю пользователям осваивать внутренние инструменты: ERP-дашборд, LLM на NVIDIA GPU, автоматизацию рутины.",
+              "Устранение проблем с подключением: Omada Wi-Fi, точки доступа/свитчи TP-Link, VPN, firewall/VLAN.",
+              "Обслуживание Windows/Linux; понимание Active Directory.",
+              "Пользовательская IT-документация и политики (устройства, доступ, стандарты безопасности).",
+              "Кибергигиена: MFA, управление доступом, awareness по предотвращению инцидентов."
             ]
           },
           {
             "title": "Фриланс — IT-автоматизация и tooling | Удалённо | 2024–2026",
             "bullets": [
-              "Monitoring/alerting, снижающие manual follow-ups и повторные тикеты.",
-              "Клиентские продукты с понятными dashboards и supportable production setups.",
-              "Структурированная документация и handover по системам, которые запускал.",
-              "UI/UX и product-работа для клиентов — полезно для понятных IT-материалов; портфолио выше."
+              "Мониторинг и алерты, снижающие повторные тикеты и ручные follow-up.",
+              "Клиентские продукты с понятными дашбордами и поддерживаемыми production-сетапами.",
+              "Структурированная документация и handover по системам, которые запускал."
             ]
           },
           {
-            "title": "Системный администратор / Desktop Support — Mining Trade House s.r.o. | 2022 – 2024",
+            "title": "Системный администратор / IT Support — NDA | 2022 – 2024",
             "bullets": [
               "Полный цикл управления рабочими станциями.",
               "Поддержка пользователей по ПО, ОС и учётным записям.",
-              "Troubleshooting сети: LAN/Wi‑Fi, роутеры, офисное подключение.",
+              "Устранение сетевых проблем: LAN/Wi-Fi, роутеры, офисное подключение.",
               "Диагностика железа и быстрое решение инцидентов.",
               "Установка и обслуживание платформ и спецПО для сотрудников."
             ]
@@ -783,24 +825,24 @@
         ],
         "projects": [
           {
-            "title": "Support Enablement & Documentation",
-            "detail": "Cybersecurity workshop; onboarding; IT-политики; оцифровка архива (−50%)"
+            "title": "Поддержка и документация",
+            "detail": "Workshop по кибербезопасности; онбординг; IT-политики; оцифровка архива (−50%)"
           },
           {
-            "title": "Proactive Monitoring & Internal Tools",
-            "detail": "SIM monitoring; internal LLM; self-hosted ERP dashboard; iGaming games parser"
+            "title": "Проактивный мониторинг и внутренние инструменты",
+            "detail": "Мониторинг SIM; внутренний LLM на NVIDIA GPU; self-hosted ERP-дашборд; автоматизация процессов для сотрудников"
           },
           {
-            "title": "Service metrics",
-            "detail": "~100 тикетов/месяц при быстром Service Level Indicator (SLI)"
+            "title": "Сетевая поддержка",
+            "detail": "Omada + точки доступа/свитчи TP-Link; VPN; firewall OPNsense; troubleshooting VLAN-подключений"
           }
         ],
         "education": {
-          "school": "Чешский университет естественных наук в Праге (INFO) | 2020–2023 | Курс пройден, диплом не получен",
-          "details": "Релевантные дисциплины: ОС, сети, Information Security, UNIX, БД, Python/Java. Сертификации: Fortinet & IBM cybersecurity fundamentals."
+          "school": "Чешский университет естественных наук в Праге (INFO) | 2020–2023",
+          "details": "Релевантные дисциплины: ОС, сети, информационная безопасность, UNIX, БД, Python/Java, AI, системная интеграция. Сертификации: Fortinet & IBM cybersecurity fundamentals."
         },
         "languages": [
-          "Английский — B1",
+          "Английский — B2",
           "Чешский — B2",
           "Русский — родной"
         ]
