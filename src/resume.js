@@ -128,7 +128,6 @@ function renderContact(lang) {
   const root = document.getElementById("resume-contact");
   const chips = [
     { text: location },
-    { text: c.phone, href: `tel:${c.phone.replace(/\s/g, "")}` },
     { text: c.email, href: `mailto:${c.email}` },
     { text: "LinkedIn", href: c.linkedin, external: true },
     { text: "GitHub", href: c.github, external: true },
